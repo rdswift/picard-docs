@@ -1,4 +1,4 @@
-name: Manual Check and Basic Build
+name: Manual Check and Basic Build (Test)
 
 on:
   workflow_dispatch:
