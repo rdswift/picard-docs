@@ -98,6 +98,7 @@ class SPHINX_():    # pylint: disable=too-few-public-methods
     BUILD_TARGETS = {
         'html': {'dir': 'html', 'cmd': 'html', 'extra': ''},
         'epub': {'dir': 'epub', 'cmd': 'epub', 'extra': '-D master_doc=epub'},
+        'latex': {'dir': 'latex', 'cmd': 'latex', 'extra': ''},
         'pdf': {'dir': 'latex', 'cmd': 'latex', 'extra': ''},
     }
 
@@ -644,11 +645,12 @@ def parse_command_line():
         'build_targets',
         action='store',
         nargs='+',
-        choices=['map', 'pot', 'po', 'html', 'pdf', 'epub', 'all'],
+        choices=['map', 'pot', 'po', 'html', 'latex', 'pdf', 'epub', 'all'],
         help="map = build tag map files, "
              "pot = build translation template files, "
              "po = build translation files, "
              "html = build html files, "
+             "latex = build latex files, "
              "pdf = build pdf file, "
              "epub = build epub file, "
              "all = build all files"
@@ -663,9 +665,10 @@ def parse_command_line():
         'clean_targets',
         action='store',
         nargs='+',
-        choices=['mo', 'html', 'pdf', 'epub', 'all'],
+        choices=['mo', 'html', 'pdf', 'epub', 'latex', 'all'],
         help="mo = remove all compiled MO files, "
              "html = clean html build directory, "
+             "latex = clean latex build directory, "
              "pdf = clean pdf build directory, "
              "epub = clean epub build directory, "
              "all = clean all build targets"
