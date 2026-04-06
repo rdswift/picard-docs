@@ -14,7 +14,7 @@ Some of the most often asked questions have been addressed in the following sect
       :doc:`faq_file_formats` /
       :doc:`faq_config` /
       :doc:`faq_scripting` /
-      :doc:`faq_font_size`
+      :doc:`faq_display`
 
 .. toctree::
    :hidden:
@@ -23,4 +23,4 @@ Some of the most often asked questions have been addressed in the following sect
    faq_file_formats
    faq_config
    faq_scripting
-   faq_font_size
+   faq_display
