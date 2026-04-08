@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: MusicBrainz Picard v2.11.0rc1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-24 12:16-0700\n"
-"PO-Revision-Date: 2026-03-21 17:23+0000\n"
+"PO-Revision-Date: 2026-04-08 14:11+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Lithuanian <https://translations.metabrainz.org/projects/"
 "picard-docs/configoptions_cover/lt/>\n"
@@ -47,12 +47,17 @@ msgid "**Embed only a single front image**"
 msgstr "**Įterpti tik vieną priekinį vaizdą**"
 
 #: ../../config/options_cover.rst:23
+#, fuzzy
 msgid ""
 "Embeds only a single front image into your music files. No other images, "
 "regardless of their type, will be embedded. Many music players will only "
 "display a single embedded image, so embedding additional images may not add "
 "any functionality."
 msgstr ""
+"Į muzikos failus įterpia tik vieną priekinį vaizdą. Jokie kiti vaizdai, "
+"nepriklausomai nuo jų tipo, nebus įterpiami. Daugelis muzikos leistuvų rodys "
+"tik vieną įterptą vaizdą, todėl papildomų vaizdų įterpimas gali nepridėti "
+"jokio funkcionalumo."
 
 #: ../../config/options_cover.rst:25
 msgid "**Never replace cover images with smaller ones**"
@@ -81,6 +86,7 @@ msgid "**Save cover images as separate files**"
 msgstr "**Išsaugoti viršelio vaizdus kaip atskirus failus**"
 
 #: ../../config/options_cover.rst:37
+#, fuzzy
 msgid ""
 "In the file name mask you can use any variable or function from :doc:`Picard "
 "Tags <../variables/variables>` and :doc:`Picard Scripting Functions <../"
@@ -89,6 +95,12 @@ msgid ""
 "\"cover\". If you change this to \"folder\", Windows will display the image "
 "as a preview of the containing directory."
 msgstr ""
+"Failo pavadinimo maskuotėje galite naudoti bet kurį kintamąjį arba funkciją "
+"iš :doc:`„Picard“ žymių <../variables/variables>` ir :doc:`„Picard“ "
+"skriptavimo funkcijų <../functions/list_by_type>`. Maskuotėje neturėtų būti "
+"failo plėtinio, jis pridedamas automatiškai pagal faktinį vaizdo tipą. "
+"Numatytoji reikšmė – „cover“. Jei pakeisite ją į „folder“, „Windows“ rodys "
+"vaizdą kaip jame esančio katalogo peržiūrą."
 
 #: ../../config/options_cover.rst:39
 #, fuzzy

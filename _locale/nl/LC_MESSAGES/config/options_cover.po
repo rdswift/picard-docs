@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: MusicBrainz Picard v2.7.0b2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-14 08:09+0100\n"
-"PO-Revision-Date: 2026-03-21 17:23+0000\n"
+"PO-Revision-Date: 2026-04-08 14:11+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Dutch <https://translations.metabrainz.org/projects/picard-"
 "docs/configoptions_cover/nl/>\n"
@@ -47,12 +47,17 @@ msgid "**Embed only a single front image**"
 msgstr "**Slechts één afbeelding van de voorkant inbedden**"
 
 #: ../../config/options_cover.rst:23
+#, fuzzy
 msgid ""
 "Embeds only a single front image into your music files. No other images, "
 "regardless of their type, will be embedded. Many music players will only "
 "display a single embedded image, so embedding additional images may not add "
 "any functionality."
 msgstr ""
+"Als je dit aanvinkt, wordt er maar één afbeelding (die van de voorkant) "
+"ingebed. Alle andere soorten afbeeldingen worden niet ingebed. Veel "
+"muziekspelers geven toch maar één ingebedde afbeelding weer, dus het "
+"toevoegen van meer afbeeldingen biedt mogelijk geen extra functionaliteit."
 
 #: ../../config/options_cover.rst:25
 msgid "**Never replace cover images with smaller ones**"
@@ -169,12 +174,19 @@ msgid "**Save only a single front image as separate file**"
 msgstr "**Slechts één afbeelding van de voorkant als los bestand opslaan**"
 
 #: ../../config/options_cover.rst:67
+#, fuzzy
 msgid ""
 "This tells Picard to only save the first \"front\" image to a separate file "
 "with the release. No other \"front\" images or images of any other type will "
 "be saved. If left unchecked, all \"front\" images will be saved as separate "
 "files, along with any other specified image types to be downloaded."
 msgstr ""
+"Met deze optie stel je in dat Picard alleen de eerste afbeelding van de "
+"voorkant als afzonderlijk bestand met de uitgave opslaat. Er worden dan geen "
+"andere afbeeldingen van de voorkant of andere soorten afbeeldingen "
+"opgeslagen. Als je dit niet aanvinkt, worden alle afbeeldingen van de "
+"voorkant als los bestand opgeslagen, naast alle andere opgegeven soorten "
+"bestanden die worden gedownload."
 
 #: ../../config/options_cover.rst:69
 msgid "**Use the primary image type as the file name**"
