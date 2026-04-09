@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MusicBrainz Picard v3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-11 11:43-0700\n"
+"POT-Creation-Date: 2026-04-09 09:34-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,5 +25,5 @@ msgid "Some of the most often asked questions have been addressed in the followi
 msgstr ""
 
 #: ../../faq/faq.rst:12
-msgid "FAQ Details: :doc:`faq_usage` / :doc:`faq_file_formats` / :doc:`faq_config` / :doc:`faq_font_size`"
+msgid "FAQ Details: :doc:`faq_usage` / :doc:`faq_file_formats` / :doc:`faq_config` / :doc:`faq_scripting` / :doc:`faq_display`"
 msgstr ""
