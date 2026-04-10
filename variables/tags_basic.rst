@@ -223,10 +223,6 @@ These tags are not able to be populated by stock Picard, however they may be use
 
    The lyrics for the track.
 
-**syncedlyrics**
-
-    The synchronized lyrics for the track. (*since Picard 3.0*)
-
 **musicip_fingerprint**
 
    The MusicIP Fingerprint for the track.
@@ -258,6 +254,10 @@ These tags are not able to be populated by stock Picard, however they may be use
 **subtitle**
 
    This is used for information directly related to the contents title.
+
+**syncedlyrics**
+
+    The synchronized lyrics for the track. (*since Picard 3.0*)
 
 **titlesort**
 
