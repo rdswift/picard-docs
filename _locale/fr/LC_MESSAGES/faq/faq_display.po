@@ -1,15 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2026, MetaBrainz Foundation.
 # This file is distributed under the same license as the MusicBrainz Picard package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# Bob Swift <bswift@rsds.ca>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: MusicBrainz Picard v3.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-09 09:34-0600\n"
 "PO-Revision-Date: 2026-04-10 16:11+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Last-Translator: Bob Swift <bswift@rsds.ca>\n"
 "Language-Team: French <https://translations.metabrainz.org/projects/picard-"
 "docs/faqfaq_display/fr/>\n"
 "Language: fr\n"
@@ -21,10 +20,9 @@ msgstr ""
 
 #: ../../faq/faq_display.rst:4
 msgid "Display"
-msgstr ""
+msgstr "Affichage"
 
 #: ../../faq/faq_display.rst:7
-#, fuzzy
 msgid ":index:`How do I change the fonts size or font? <change font size>`"
 msgstr ""
 ":index:`Comment modifier la taille ou le type de police ? <modifier la "
@@ -35,10 +33,12 @@ msgid ""
 "Picard is a Qt application, so whatever works for other Qt applications "
 "should work for Picard."
 msgstr ""
+"Picard est une application Qt ; par conséquent, tout ce qui fonctionne pour "
+"les autres applications Qt devrait également fonctionner pour Picard."
 
 #: ../../faq/faq_display.rst:11
 msgid "**Windows**"
-msgstr ""
+msgstr "**Windows**"
 
 #: ../../faq/faq_display.rst:13
 msgid ""
@@ -46,6 +46,10 @@ msgid ""
 "can change the size of text, apps and other items. This should work for "
 "Picard as well as other applications."
 msgstr ""
+"Cette opération s'effectue généralement via les paramètres d'affichage de "
+"Windows, où vous pouvez modifier la taille du texte, des applications et "
+"d'autres éléments. Cela devrait fonctionner aussi bien pour Picard que pour "
+"d'autres applications."
 
 #: ../../faq/faq_display.rst:15
 msgid ""
@@ -53,6 +57,10 @@ msgid ""
 "apps bigger <https://support.microsoft.com/en-us/windows/make-text-and-apps-"
 "bigger-c3095a80-6edd-4779-9282-623c4d721d64>`_\"."
 msgstr ""
+"Des informations supplémentaires peuvent être trouvées dans l'article "
+"Windows intitulé « `Agrandir le texte et les applications <https://"
+"support.microsoft.com/en-us/windows/make-text-and-apps-bigger-c3095a80-6edd-"
+"4779-9282-623c4d721d64>`_ »."
 
 #: ../../faq/faq_display.rst:17
 msgid ""
@@ -62,9 +70,15 @@ msgid ""
 "reddit post, \"`Need help with app interface scaling in Windows 11 <https://"
 "www.reddit.com/r/qBittorrent/comments/zqafe9/comment/j1i0z0v>`_\"."
 msgstr ""
+"Une autre solution consiste à définir la variable d'environnement "
+"``QT_SCALE_FACTOR`` pour adapter la taille des polices des applications Qt "
+"globalement ou pour des applications spécifiques. Cela peut s'avérer utile "
+"sur les écrans 4K. Vous trouverez plus d'informations dans le sujet Reddit : "
+"« `Besoin d'aide pour la mise à l'échelle de l'interface des applications "
+"sous Windows 11 <https://www.reddit.com/r/qBittorrent/comments/zqafe9/"
+"comment/j1i0z0v>`_ »."
 
 #: ../../faq/faq_display.rst:20
-#, fuzzy
 msgid "**macOS**"
 msgstr "**macOS**"
 
@@ -74,6 +88,10 @@ msgid ""
 "change the display settings to adjust the size of text and other items. This "
 "should work for Picard as well as other applications."
 msgstr ""
+"Cela se gère généralement via les Préférences Système, où vous pouvez "
+"modifier les paramètres d'affichage pour ajuster la taille du texte et "
+"d'autres éléments. Cela devrait fonctionner aussi bien pour Picard que pour "
+"d'autres applications."
 
 #: ../../faq/faq_display.rst:24
 msgid ""
@@ -83,22 +101,26 @@ msgid ""
 "text size of specific apps on Mac <https://www.idownloadblog.com/2023/06/28/"
 "how-to-adjust-text-size-apps-mac/>`_\"."
 msgstr ""
+"Des informations supplémentaires peuvent être trouvées dans l'article "
+"d'Apple, « `Augmenter la taille de la police et des icônes sur Mac <https://"
+"support.apple.com/en-ca/guide/mac-help/mchld786f2cd/mac>`_ » ou dans "
+"l'article d'iDownloadBlog, « `Comment ajuster la taille du texte de "
+"certaines applications sur Mac <https://www.idownloadblog.com/2023/06/28/how-"
+"to-adjust-text-size-apps-mac/>`_ »."
 
 #: ../../faq/faq_display.rst:27
 msgid "**Linux**"
-msgstr ""
+msgstr "**Linux**"
 
 #: ../../faq/faq_display.rst:29
-#, fuzzy
 msgid "Two ways to change the size/scaling are:"
 msgstr "Voici deux façons de modifier la taille ou le redimensionnement :"
 
 #: ../../faq/faq_display.rst:31
 msgid "Desktop Settings"
-msgstr ""
+msgstr "Paramètres du bureau"
 
 #: ../../faq/faq_display.rst:0
-#, fuzzy
 msgid ""
 "The usual default way to change the scaling is to rely on the settings of "
 "the desktop environment, e.g. on GNOME the scaling set when configuring the "
@@ -112,10 +134,9 @@ msgstr ""
 
 #: ../../faq/faq_display.rst:35
 msgid "Environment Settings"
-msgstr ""
+msgstr "Paramètres d'environnement"
 
 #: ../../faq/faq_display.rst:0
-#, fuzzy
 msgid ""
 "Setting the environment variable ``QT_SCALE_FACTOR`` will scale fonts for Qt "
 "applications. This can be useful on 4k monitors. From a terminal, you can "
@@ -131,7 +152,6 @@ msgstr ""
 "s'applique à toutes les applications Qt."
 
 #: ../../faq/faq_display.rst:39
-#, fuzzy
 msgid ""
 "To change both the size/scaling and the font, use `qt6ct <https://github.com/"
 "trialuser02/qt6ct>`_ to set the new font and/or size. Note that these "
@@ -148,3 +168,6 @@ msgid ""
 "found in \"`The official documentation on high DPI <https://doc.qt.io/qt-6/"
 "highdpi.html>`_\"."
 msgstr ""
+"Des informations supplémentaires concernant la mise à l'échelle DPI élevée "
+"sur toutes les plateformes sont disponibles dans « `La documentation "
+"officielle sur le DPI élevé <https://doc.qt.io/qt-6/highdpi.html>`_ »."
