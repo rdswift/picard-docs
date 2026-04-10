@@ -3,22 +3,22 @@
 # This file is distributed under the same license as the MusicBrainz Picard
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
-# Bob Swift <bswift@rsds.ca>, 2021, 2022, 2023.
+# Bob Swift <bswift@rsds.ca>, 2021, 2022, 2023, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: MusicBrainz Picard v2.3.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-09 09:34-0600\n"
-"PO-Revision-Date: 2023-01-04 23:51+0000\n"
+"PO-Revision-Date: 2026-04-10 16:11+0000\n"
 "Last-Translator: Bob Swift <bswift@rsds.ca>\n"
-"Language-Team: French <https://translate.uploadedlobster.com/projects/picard-"
+"Language-Team: French <https://translations.metabrainz.org/projects/picard-"
 "docs/functionslist_by_type/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.15\n"
+"X-Generator: Weblate 5.16.2\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../../functions/list_by_type.rst:4
@@ -46,6 +46,18 @@ msgid ""
 "because it often introduces extra spaces such as a space after the comma "
 "separating arguments or quotes around the value."
 msgstr ""
+"Une erreur courante lors de l'utilisation des fonctions de script consiste à "
+"ajouter un espace après la virgule séparant les arguments, ou à placer une "
+"valeur entre guillemets. Picard considérera ces deux éléments comme faisant "
+"partie de l'argument, ce qui empêchera la fonction de fonctionner comme "
+"prévu. Par exemple, si vous avez un script qui vérifie si l'artiste est « "
+"Mon artiste », mais que la vérification est ``$eq(%artist%, Mon artiste)`` "
+"ou ``$eq(%artist%,« Mon artiste »)``, la correspondance ne fonctionnera pas. "
+"La syntaxe correcte doit être ``$eq(%artist%,Mon artiste)``, sans espace ni "
+"guillemets supplémentaires. C'est un problème courant lors de l'utilisation "
+"de l'IA pour développer des scripts, car celle-ci introduit souvent des "
+"espaces supplémentaires, tels qu'un espace après la virgule séparant les "
+"arguments ou des guillemets autour de la valeur."
 
 #: ../../functions/list_by_type.rst:14
 msgid ":index:`Assignment Functions <scripting functions; assignment>`"

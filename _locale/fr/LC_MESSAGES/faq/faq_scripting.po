@@ -1,39 +1,42 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2026, MetaBrainz Foundation.
 # This file is distributed under the same license as the MusicBrainz Picard package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
+# Bob Swift <bswift@rsds.ca>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: MusicBrainz Picard v3.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-09 09:34-0600\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2026-04-10 16:11+0000\n"
+"Last-Translator: Bob Swift <bswift@rsds.ca>\n"
+"Language-Team: French <https://translations.metabrainz.org/projects/picard-"
+"docs/faqfaq_scripting/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #: ../../faq/faq_scripting.rst:4
 msgid "Picard Scripting"
-msgstr ""
+msgstr "Scripting Picard"
 
 #: ../../faq/faq_scripting.rst:7
 msgid "Why won't my script run?"
-msgstr ""
+msgstr "Pourquoi mon script ne s'exécute-t-il pas ?"
 
 #: ../../faq/faq_scripting.rst:9
 msgid ""
 "If you have a script that doesn't seem to be running or shows as having "
 "error in the editor, review the following common issues:"
 msgstr ""
+"Si votre script ne semble pas s'exécuter ou affiche une erreur dans "
+"l'éditeur, vérifiez les problèmes courants suivants :"
 
 #: ../../faq/faq_scripting.rst:11
 msgid "**Is the script enabled?**"
-msgstr ""
+msgstr "**Le script est-il activé ?**"
 
 #: ../../faq/faq_scripting.rst:0
 msgid ""
@@ -42,10 +45,15 @@ msgid ""
 "manually from the context menu for the track or album, but it will not run "
 "automatically when you load files or perform other actions."
 msgstr ""
+"Assurez-vous que le script est activé dans les options de script. Si le "
+"script n'est pas activé, il ne s'exécutera pas automatiquement. Vous pouvez "
+"lancer le script manuellement à partir du menu contextuel de la piste ou de "
+"l'album, mais il ne s'exécutera pas automatiquement lorsque vous chargez des "
+"fichiers ou effectuez d'autres actions."
 
 #: ../../faq/faq_scripting.rst:15
 msgid "**Is there a syntax error in the script?**"
-msgstr ""
+msgstr "**Y a-t-il une erreur de syntaxe dans le script ?**"
 
 #: ../../faq/faq_scripting.rst:0
 msgid ""
@@ -54,10 +62,15 @@ msgid ""
 "parentheses, incorrect function names, or other issues that may cause the "
 "script to not run."
 msgstr ""
+"Si le script contient une erreur de syntaxe, il ne s'exécutera pas et un "
+"message d'erreur peut s'afficher dans l'éditeur. Vérifiez attentivement le "
+"script afin de détecter toute erreur de syntaxe, comme des parenthèses "
+"manquantes, des noms de fonctions incorrects ou tout autre problème "
+"susceptible d'empêcher son exécution."
 
 #: ../../faq/faq_scripting.rst:19
 msgid "**Are all the functions used in the script valid?**"
-msgstr ""
+msgstr "**Toutes les fonctions utilisées dans le script sont-elles valides ?**"
 
 #: ../../faq/faq_scripting.rst:0
 msgid ""
@@ -67,10 +80,14 @@ msgid ""
 "function is provided by a plugin that is not enabled or if the function name "
 "is misspelled."
 msgstr ""
+"Si votre script utilise une fonction invalide ou inexistante, il ne "
+"s'exécutera pas. Assurez-vous que toutes les fonctions utilisées sont "
+"valides et présentes dans Picard. Ce problème peut survenir si la fonction "
+"provient d'un plugin désactivé ou si son nom est mal orthographié."
 
 #: ../../faq/faq_scripting.rst:23
 msgid "**Have all reserved characters been escaped properly?**"
-msgstr ""
+msgstr "**Tous les caractères réservés ont-ils été correctement échappés ?**"
 
 #: ../../faq/faq_scripting.rst:0
 msgid ""
@@ -83,6 +100,15 @@ msgid ""
 "you want to check if the artist's name is \"100%\", you should use "
 "``$eq(%artist%,100\\%)``."
 msgstr ""
+"Si votre script inclut des caractères réservés tels que des virgules, des "
+"parenthèses ou d'autres caractères spéciaux dans un argument, assurez-vous "
+"de les échapper correctement. Si vous souhaitez inclure une virgule dans la "
+"valeur d'un argument, vous devez l'échapper avec une barre oblique inverse "
+"(par exemple : ``\\,``) afin d'éviter qu'elle ne soit interprétée comme un "
+"séparateur entre les arguments. Il en va de même pour les autres caractères "
+"réservés pouvant figurer dans la valeur d'un argument. Par exemple, si vous "
+"souhaitez vérifier si le nom de l'artiste est « 100 % », vous devez utiliser "
+"``$eq(%artist%,100 \\%)``."
 
 #: ../../faq/faq_scripting.rst:27
 msgid ""
@@ -91,6 +117,11 @@ msgid ""
 "using AI to develop scripts, because it often includes reserved characters "
 "in the value arguments without escaping them."
 msgstr ""
+"Si les caractères réservés ne sont pas correctement échappés, le script peut "
+"ne pas s'exécuter ou produire des résultats inattendus. Ce problème est "
+"fréquent lors du développement de scripts avec l'IA, car celle-ci inclut "
+"souvent des caractères réservés dans les arguments de valeur sans les "
+"échapper."
 
 #: ../../faq/faq_scripting.rst:29
 msgid ""
@@ -104,10 +135,20 @@ msgid ""
 "text enclosed with parentheses (\"Some (enclosed text)\") where the Python "
 "regular expression statement would be:"
 msgstr ""
+"L'un des problèmes les plus courants liés à l'échappement incorrect des "
+"caractères réservés survient lors de l'utilisation des fonctions "
+"d'expression régulière ``$rsearch()`` et ``$rreplace()``. Ces fonctions "
+"peuvent s'avérer particulièrement complexes car la syntaxe des expressions "
+"régulières inclut elle-même des caractères réservés ; il est donc parfois "
+"nécessaire d'échapper ces caractères à la fois pour la syntaxe des "
+"expressions régulières et pour la syntaxe du script. Par exemple, si vous "
+"souhaitez remplacer du texte entre crochets (« Certains \\[texte ci-joint\\] "
+"») dans le titre d'un morceau par le texte entre parenthèses (« Some "
+"(enclosed text) »), l'expression régulière Python correspondante serait :"
 
 #: ../../faq/faq_scripting.rst:35
 msgid "you would need to use something like:"
-msgstr ""
+msgstr "Il vous faudrait utiliser quelque chose comme :"
 
 #: ../../faq/faq_scripting.rst:41
 msgid ""
@@ -116,30 +157,41 @@ msgid ""
 "Make sure to review your script for any reserved characters in the argument "
 "values and escape them properly to ensure your script runs as expected."
 msgstr ""
+"Les caractères réservés sont : la virgule (``,``), les parenthèses (``(`` et "
+"``)``), la barre oblique inverse (``\\``), le signe dollar (``$``) et le "
+"signe pourcentage (``%``). Assurez-vous de vérifier que les valeurs des "
+"arguments de votre script contiennent bien des caractères réservés et "
+"échappez-les correctement pour garantir son bon fonctionnement."
 
 #: ../../faq/faq_scripting.rst:45
 msgid "Why don't matches work in my scripts?"
 msgstr ""
+"Pourquoi les correspondances ne fonctionnent-elles pas dans mes scripts ?"
 
 #: ../../faq/faq_scripting.rst:47
 msgid ""
 "If you have checks such as ``$eq(%artist%,My Artist)`` in your scripts, but "
 "they don't seem to be working, review the following common issues:"
 msgstr ""
+"Si vos scripts contiennent des vérifications telles que ``$eq(%artist%,Mon "
+"artiste)``, mais qu'elles ne semblent pas fonctionner, consultez les "
+"problèmes courants suivants :"
 
 #: ../../faq/faq_scripting.rst:49
 msgid "**Are you using the correct syntax?**"
-msgstr ""
+msgstr "**Utilisez-vous la syntaxe correcte ?**"
 
 #: ../../faq/faq_scripting.rst:0
 msgid ""
 "Make sure you are using the correct tag or variable and value in the correct "
 "order, and that there are no typos."
 msgstr ""
+"Assurez-vous d'utiliser la balise ou la variable et la valeur correctes dans "
+"le bon ordre, et qu'il n'y a pas de fautes de frappe."
 
 #: ../../faq/faq_scripting.rst:53
 msgid "**Are you using the correct tag or variable name?**"
-msgstr ""
+msgstr "**Utilisez-vous la balise ou le nom de variable correct ?**"
 
 #: ../../faq/faq_scripting.rst:0
 msgid ""
@@ -147,10 +199,15 @@ msgid ""
 "example, if you want to check the artist name, you should use ``%artist%`` "
 "and not ``%artist name%`` or any other variation."
 msgstr ""
+"Assurez-vous d'utiliser la balise ou le nom de variable correct dans votre "
+"script. Par exemple, si vous souhaitez vérifier le nom de l'artiste, vous "
+"devez utiliser ``%artist%`` et non ``%artist name%`` ou toute autre variante."
 
 #: ../../faq/faq_scripting.rst:57
 msgid "**Is the tag or variable you are checking actually populated?**"
 msgstr ""
+"**La balise ou la variable que vous vérifiez est-elle réellement renseignée "
+"?**"
 
 #: ../../faq/faq_scripting.rst:0
 msgid ""
@@ -161,10 +218,18 @@ msgid ""
 "that case, you may need to adjust the order of your scripts or add a check "
 "to ensure the tag or variable is populated before running the match."
 msgstr ""
+"Si la balise ou la variable que vous vérifiez est vide ou non renseignée, la "
+"correspondance échouera. Assurez-vous qu'elle possède une valeur avant "
+"l'exécution du script. Cela peut poser problème si la balise ou la variable "
+"est renseignée par un autre script, mais que le script effectuant la "
+"correspondance s'exécute avant l'autre. Dans ce cas, vous devrez peut-être "
+"modifier l'ordre d'exécution de vos scripts ou ajouter une vérification pour "
+"vous assurer que la balise ou la variable est renseignée avant l'exécution "
+"de la correspondance."
 
 #: ../../faq/faq_scripting.rst:61
 msgid "**Is the spelling and capitalization correct?**"
-msgstr ""
+msgstr "**L'orthographe et la ponctuation sont-elles correctes ?**"
 
 #: ../../faq/faq_scripting.rst:0
 msgid ""
@@ -172,10 +237,13 @@ msgid ""
 "spelling and capitalization of the value you are checking against matches "
 "exactly with the value in the tag or variable."
 msgstr ""
+"En général, les tests de correspondance sont sensibles à la casse ; assurez-"
+"vous donc que l’orthographe et la casse de la valeur que vous comparez "
+"correspondent exactement à la valeur de la balise ou de la variable."
 
 #: ../../faq/faq_scripting.rst:65
 msgid "**Are you using the correct operator?**"
-msgstr ""
+msgstr "**Utilisez-vous l'opérateur correct ?**"
 
 #: ../../faq/faq_scripting.rst:0
 msgid ""
@@ -183,12 +251,19 @@ msgid ""
 "you want to check if a tag or variable contains a certain value, you should "
 "use ``$in(%tag_name%,value)`` instead of ``$eq(%tag_name%,value)``."
 msgstr ""
+"Assurez-vous d'utiliser l'opérateur approprié pour votre correspondance. Par "
+"exemple, si vous souhaitez vérifier si une étiquette ou une variable "
+"contient une certaine valeur, vous devez utiliser ``$in"
+"(%nom_de_l'étiquette%,valeur)`` au lieu de ``$eq(%nom_de_l'étiquette%,valeur)"
+"``."
 
 #: ../../faq/faq_scripting.rst:69
 msgid ""
 "**Are there any leading or trailing spaces or unnecessary quotes in the "
 "value argument?**"
 msgstr ""
+"**Y a-t-il des espaces en début ou en fin de chaîne, ou des guillemets "
+"inutiles dans l'argument de valeur ?**"
 
 #: ../../faq/faq_scripting.rst:0
 msgid ""
@@ -202,3 +277,14 @@ msgid ""
 "``$eq(%artist%, My Artist)``, the match will not work. The correct syntax "
 "should be ``$eq(%artist%,My Artist)`` without the quotes or extra spaces."
 msgstr ""
+"Si la valeur contient des espaces en début ou en fin de chaîne, ou si elle "
+"est placée entre guillemets, la correspondance risque de ne pas fonctionner "
+"comme prévu. Ce problème est fréquent lors de l'utilisation de l'IA pour "
+"développer des scripts, car celle-ci introduit souvent des espaces "
+"supplémentaires, par exemple après la virgule séparant les arguments, ou des "
+"guillemets autour de la valeur. Picard considérera ces deux éléments comme "
+"faisant partie de l'argument. Par exemple, si votre script vérifie si "
+"l'artiste est « Mon Artiste », mais que la vérification est ``$eq(%artist%,« "
+"Mon Artiste »)`` ou ``$eq(%artist%, Mon Artiste)``, la correspondance "
+"échouera. La syntaxe correcte est ``$eq(%artist%,Mon Artiste)``, sans "
+"guillemets ni espaces supplémentaires."
