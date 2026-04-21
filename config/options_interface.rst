@@ -76,10 +76,6 @@
 
    When this is enabled, Picard will automatically scroll the file browser display to keep relevant content visible.
 
-**Enable audio player "now playing" notifications**
-
-   When enabled, Picard will send "now playing" notifications from the internal audio player.
-
 **Begin browsing in the following directory**
 
    By default, Picard remembers the last directory used to load files. If you enable this option and provide a directory, Picard will always start in the directory provided.

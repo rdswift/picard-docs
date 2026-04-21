@@ -92,6 +92,7 @@ Changes made to a profile's options settings, enabled status, or position in the
       options_plugins
       options_scripting
       options_interface
+      options_player
       options_advanced
 
 
@@ -110,4 +111,5 @@ Changes made to a profile's options settings, enabled status, or position in the
       :doc:`options_plugins` /
       :doc:`options_scripting` /
       :doc:`options_interface` /
+      :doc:`options_player` /
       :doc:`options_advanced`
