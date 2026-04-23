@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MusicBrainz Picard v3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-23 08:48+0200\n"
+"POT-Creation-Date: 2026-04-23 10:31-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../config/options_player.rst:4
-msgid ":index:`Audio Player Options <pair: configuration; audio player; listenbrainz>`"
+msgid ":index:`Audio Player Options <triple: configuration; audio player; listenbrainz>`"
 msgstr ""
 
 #: ../../config/options_player.rst:19
