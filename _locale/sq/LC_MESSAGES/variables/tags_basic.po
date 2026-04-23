@@ -2,13 +2,14 @@
 # Copyright (C) This documentation is licensed under CC0 1.0.
 # This file is distributed under the same license as the MusicBrainz Picard package.
 # Languages add-on <noreply-addon-languages@weblate.org>, 2026.
+# Bob Swift <bswift@rsds.ca>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: MusicBrainz Picard v2.12\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-23 08:43+0200\n"
-"PO-Revision-Date: 2026-01-29 11:11+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2026-04-23 06:48+0000\n"
+"Last-Translator: Bob Swift <bswift@rsds.ca>\n"
 "Language-Team: Albanian <https://translations.metabrainz.org/projects/picard-"
 "docs/variablestags_basic/sq/>\n"
 "Language: sq\n"
@@ -16,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.15.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #: ../../variables/tags_basic.rst:9
 msgid ":index:`Basic Tags <tags; basic>`"

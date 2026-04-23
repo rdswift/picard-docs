@@ -4,20 +4,22 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
 # Philipp Wolfer <ph.wolfer@gmail.com>, 2023.
+# Bob Swift <bswift@rsds.ca>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: MusicBrainz Picard v2.6.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-23 08:43+0200\n"
-"PO-Revision-Date: 2023-06-02 10:26+0000\n"
-"Last-Translator: Philipp Wolfer <ph.wolfer@gmail.com>\n"
+"PO-Revision-Date: 2026-04-23 06:48+0000\n"
+"Last-Translator: Bob Swift <bswift@rsds.ca>\n"
 "Language-Team: German <https://translations.metabrainz.org/projects/picard-"
 "docs/variablestags_basic/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../../variables/tags_basic.rst:9
