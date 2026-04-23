@@ -250,6 +250,6 @@ msgstr ""
 
 #: ../../troubleshooting/troubleshooting.rst:107
 msgid ""
-"Specific situations: :doc:`does_not_start` / :doc:`no_coverart` / :doc:"
-"`missing_tags` / :doc:`not_saving` / :doc:`stopped_working`"
+"Specific "
+"situations: :doc:`does_not_start` / :doc:`no_coverart` / :doc:`missing_tags` / :doc:`not_saving` / :doc:`stopped_working`"
 msgstr ""
