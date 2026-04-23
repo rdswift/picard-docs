@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MusicBrainz Picard v3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-11 11:43-0700\n"
+"POT-Creation-Date: 2026-04-23 08:43+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,7 +52,7 @@ msgstr ""
 msgid "**Is the problem persistent for a given release?**"
 msgstr ""
 
-#: ../../faq/faq_usage.rst:0
+#: ../../faq/faq_usage.rst:27
 msgid "Try waiting a minute or two, or even a bit longer and then try again with a right-click, \"Refresh\". Sometimes the servers are just overloaded and temporarily reject requests."
 msgstr ""
 
@@ -60,7 +60,7 @@ msgstr ""
 msgid "**Has the release been deleted from MusicBrainz?**"
 msgstr ""
 
-#: ../../faq/faq_usage.rst:0
+#: ../../faq/faq_usage.rst:31
 msgid "If you are re-tagging files previously tagged with Picard, and get this error, the release has possibly been :index:`deleted <release; deleted>`. Try to right-click and use the \"Lookup in browser\" option to view the release on the website. If you can't find it, it may have been deleted. This could be because you tagged a pending release that was voted down, or tagged against a release that was deleted because editors decided it wasn't a valid release. This can happen for homebrew compilations, bad torrent or pirate rips, \"advance\" releases or very poorly added releases. Usually there will be an alternate release you can tag against, which you can find by searching or doing another clustered lookup from Picard. If you can't find a replacement and believe it has been deleted unfairly, `submit a new release <https://musicbrainz.org/doc/How_to_Add_a_Release>`_, supplying evidence of the track listing and as much information as possible to prove it is genuine and it may be accepted again."
 msgstr ""
 
@@ -73,45 +73,25 @@ msgid "These should show up in the add file and add folder dialogs, but they are
 msgstr ""
 
 #: ../../faq/faq_usage.rst:41
-msgid "macOS shows the app is :index:`damaged <macos; app damaged>`. How can I run Picard?"
-msgstr ""
-
-#: ../../faq/faq_usage.rst:43
-msgid "On macOS 10.12 and 10.13 there have been reports that sometimes the MusicBrainz Picard app cannot be started and macOS shows an error message:"
-msgstr ""
-
-#: ../../faq/faq_usage.rst:45
-msgid "\"MusicBrainz Picard.app\" is damaged and can't be opened. You should move it to the Trash."
-msgstr ""
-
-#: ../../faq/faq_usage.rst:47
-msgid "This mostly seems to happen after moving the file to the Applications folder and seems to be caused by Gatekeeper mistakenly marking the app as damaged. To solve the issue open a terminal and run::"
-msgstr ""
-
-#: ../../faq/faq_usage.rst:51
-msgid "This will clear the app being marked as damaged. If you have placed the app in a different location than :file:`/Applications` adjust the path in the command above accordingly."
-msgstr ""
-
-#: ../../faq/faq_usage.rst:55
 msgid "Picard is installed on Linux as a Snap, how can I access removable media?"
 msgstr ""
 
-#: ../../faq/faq_usage.rst:57
+#: ../../faq/faq_usage.rst:43
 msgid "Picard installed as a Snap is running inside a sandbox and thus it does not have full access to all files and folders on your system. By default Picard has access to your home folder. You can additionally give it access to removable media by running the following command on a terminal:"
 msgstr ""
 
-#: ../../faq/faq_usage.rst:65
+#: ../../faq/faq_usage.rst:51
 msgid "On Windows, how do I solve errors on saving to cloud storage drives mounted with rclone?"
 msgstr ""
 
-#: ../../faq/faq_usage.rst:67
+#: ../../faq/faq_usage.rst:53
 msgid "rclone can provide access to cloud storage by mounting a virtual filesystem as a drive. This virtual filesystem has some differences to a real filesystem which can cause compatibility issues."
 msgstr ""
 
-#: ../../faq/faq_usage.rst:69
+#: ../../faq/faq_usage.rst:55
 msgid "For full compatibility with Picard you need to mount the cloud storage with rclone as a network drive with the ``--network-mode`` parameter and set the cache mode to ``--vfs-cache-mode=writes`` or ``--vfs-cache-mode=full``. Your rclone command to mount a remote as drive X: might look like this:"
 msgstr ""
 
-#: ../../faq/faq_usage.rst:75
+#: ../../faq/faq_usage.rst:61
 msgid "Please refer to the rclone documentation for more details."
 msgstr ""

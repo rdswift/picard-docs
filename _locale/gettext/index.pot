@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MusicBrainz Picard v3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-11 11:43-0700\n"
+"POT-Creation-Date: 2026-04-23 08:43+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,11 +44,11 @@ msgstr ""
 msgid "Troubleshooting"
 msgstr ""
 
-#: ../../index.rst:83
+#: ../../index.rst:82
 msgid "Tutorials"
 msgstr ""
 
-#: ../../index.rst:94
+#: ../../index.rst:93
 msgid "Appendices"
 msgstr ""
 

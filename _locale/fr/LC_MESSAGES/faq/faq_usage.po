@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MusicBrainz Picard v2.3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-14 08:09+0100\n"
+"POT-Creation-Date: 2026-04-23 08:43+0200\n"
 "PO-Revision-Date: 2022-12-30 12:50+0000\n"
 "Last-Translator: Philipp Wolfer <ph.wolfer@gmail.com>\n"
 "Language-Team: French <https://translate.uploadedlobster.com/projects/picard-"
@@ -87,7 +87,7 @@ msgstr ""
 msgid "**Is the problem persistent for a given release?**"
 msgstr "**Le problème persiste-t-il pour une version donnée?**"
 
-#: ../../faq/faq_usage.rst:0
+#: ../../faq/faq_usage.rst:27
 msgid ""
 "Try waiting a minute or two, or even a bit longer and then try again with a "
 "right-click, \"Refresh\". Sometimes the servers are just overloaded and "
@@ -101,7 +101,7 @@ msgstr ""
 msgid "**Has the release been deleted from MusicBrainz?**"
 msgstr "**La version a-t-elle été supprimée de MusicBrainz?**"
 
-#: ../../faq/faq_usage.rst:0
+#: ../../faq/faq_usage.rst:31
 msgid ""
 "If you are re-tagging files previously tagged with Picard, and get this "
 "error, the release has possibly been :index:`deleted <release; deleted>`. "
@@ -160,58 +160,12 @@ msgstr ""
 
 #: ../../faq/faq_usage.rst:41
 msgid ""
-"macOS shows the app is :index:`damaged <macos; app damaged>`. How can I run "
-"Picard?"
-msgstr ""
-"macOS montre que l'application est :index:`endommagé <macos; app "
-"endommagée>`. Comment puis-je diriger Picard?"
-
-#: ../../faq/faq_usage.rst:43
-msgid ""
-"On macOS 10.12 and 10.13 there have been reports that sometimes the "
-"MusicBrainz Picard app cannot be started and macOS shows an error message:"
-msgstr ""
-"Sur macOS 10.12 et 10.13, il y a eu des rapports indiquant que parfois "
-"l'application MusicBrainz Picard ne peut pas être démarrée et macOS affiche "
-"un message d'erreur:"
-
-#: ../../faq/faq_usage.rst:45
-msgid ""
-"\"MusicBrainz Picard.app\" is damaged and can't be opened. You should move "
-"it to the Trash."
-msgstr ""
-"\"MusicBrainz Picard.app\" est endommagé et ne peut pas être ouvert. Vous "
-"devez le déplacer vers la corbeille."
-
-#: ../../faq/faq_usage.rst:47
-msgid ""
-"This mostly seems to happen after moving the file to the Applications folder "
-"and seems to be caused by Gatekeeper mistakenly marking the app as damaged. "
-"To solve the issue open a terminal and run::"
-msgstr ""
-"Cela semble se produire principalement après le déplacement du fichier dans "
-"le dossier Applications et semble être causé par Gatekeeper marquant par "
-"erreur l'application comme endommagée. Pour résoudre le problème, ouvrez un "
-"terminal et exécutez::"
-
-#: ../../faq/faq_usage.rst:51
-msgid ""
-"This will clear the app being marked as damaged. If you have placed the app "
-"in a different location than :file:`/Applications` adjust the path in the "
-"command above accordingly."
-msgstr ""
-"Cela effacera l'application marquée comme endommagée. Si vous avez placé "
-"l'application dans un emplacement différent de :file:`/Applications` ajustez "
-"le chemin dans la commande ci-dessus en conséquence."
-
-#: ../../faq/faq_usage.rst:55
-msgid ""
 "Picard is installed on Linux as a Snap, how can I access removable media?"
 msgstr ""
 "Picard est installé sur Linux en tant que Snap, comment puis-je accéder à un "
 "support amovible?"
 
-#: ../../faq/faq_usage.rst:57
+#: ../../faq/faq_usage.rst:43
 msgid ""
 "Picard installed as a Snap is running inside a sandbox and thus it does not "
 "have full access to all files and folders on your system. By default Picard "
@@ -224,7 +178,7 @@ msgstr ""
 "donner accès à un support amovible en exécutant la commande suivante sur un "
 "terminal:"
 
-#: ../../faq/faq_usage.rst:65
+#: ../../faq/faq_usage.rst:51
 msgid ""
 "On Windows, how do I solve errors on saving to cloud storage drives mounted "
 "with rclone?"
@@ -232,7 +186,7 @@ msgstr ""
 "Sous Windows, comment puis-je résoudre les erreurs d'enregistrement sur les "
 "disques de stockage en nuage montés avec rclone ?"
 
-#: ../../faq/faq_usage.rst:67
+#: ../../faq/faq_usage.rst:53
 msgid ""
 "rclone can provide access to cloud storage by mounting a virtual filesystem "
 "as a drive. This virtual filesystem has some differences to a real "
@@ -243,7 +197,7 @@ msgstr ""
 "certaines différences par rapport à un système de fichiers réel, ce qui peut "
 "entraîner des problèmes de compatibilité."
 
-#: ../../faq/faq_usage.rst:69
+#: ../../faq/faq_usage.rst:55
 msgid ""
 "For full compatibility with Picard you need to mount the cloud storage with "
 "rclone as a network drive with the ``--network-mode`` parameter and set the "
@@ -256,6 +210,47 @@ msgstr ""
 "vfs-cache-mode=full``. Votre commande rclone pour monter un disque distant "
 "comme lecteur X : pourrait ressembler à ceci :"
 
-#: ../../faq/faq_usage.rst:75
+#: ../../faq/faq_usage.rst:61
 msgid "Please refer to the rclone documentation for more details."
 msgstr "Veuillez vous référer à la documentation rclone pour plus de détails."
+
+#~ msgid ""
+#~ "macOS shows the app is :index:`damaged <macos; app damaged>`. How can I "
+#~ "run Picard?"
+#~ msgstr ""
+#~ "macOS montre que l'application est :index:`endommagé <macos; app "
+#~ "endommagée>`. Comment puis-je diriger Picard?"
+
+#~ msgid ""
+#~ "On macOS 10.12 and 10.13 there have been reports that sometimes the "
+#~ "MusicBrainz Picard app cannot be started and macOS shows an error message:"
+#~ msgstr ""
+#~ "Sur macOS 10.12 et 10.13, il y a eu des rapports indiquant que parfois "
+#~ "l'application MusicBrainz Picard ne peut pas être démarrée et macOS "
+#~ "affiche un message d'erreur:"
+
+#~ msgid ""
+#~ "\"MusicBrainz Picard.app\" is damaged and can't be opened. You should "
+#~ "move it to the Trash."
+#~ msgstr ""
+#~ "\"MusicBrainz Picard.app\" est endommagé et ne peut pas être ouvert. Vous "
+#~ "devez le déplacer vers la corbeille."
+
+#~ msgid ""
+#~ "This mostly seems to happen after moving the file to the Applications "
+#~ "folder and seems to be caused by Gatekeeper mistakenly marking the app as "
+#~ "damaged. To solve the issue open a terminal and run::"
+#~ msgstr ""
+#~ "Cela semble se produire principalement après le déplacement du fichier "
+#~ "dans le dossier Applications et semble être causé par Gatekeeper marquant "
+#~ "par erreur l'application comme endommagée. Pour résoudre le problème, "
+#~ "ouvrez un terminal et exécutez::"
+
+#~ msgid ""
+#~ "This will clear the app being marked as damaged. If you have placed the "
+#~ "app in a different location than :file:`/Applications` adjust the path in "
+#~ "the command above accordingly."
+#~ msgstr ""
+#~ "Cela effacera l'application marquée comme endommagée. Si vous avez placé "
+#~ "l'application dans un emplacement différent de :file:`/Applications` "
+#~ "ajustez le chemin dans la commande ci-dessus en conséquence."

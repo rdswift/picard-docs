@@ -8,10 +8,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MusicBrainz Picard v2.7.0b2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-30 11:08-0600\n"
+"POT-Creation-Date: 2026-04-23 08:43+0200\n"
 "PO-Revision-Date: 2026-03-12 17:12+0000\n"
-"Last-Translator: mfmeulenbelt "
-"<mfmeulenbelt@users.noreply.translations.metabrainz.org>\n"
+"Last-Translator: mfmeulenbelt <mfmeulenbelt@users.noreply.translations."
+"metabrainz.org>\n"
 "Language-Team: Dutch <https://translations.metabrainz.org/projects/picard-"
 "docs/variablestags_basic/nl/>\n"
 "Language: nl\n"
@@ -228,7 +228,7 @@ msgstr ""
 msgid "**compilation**"
 msgstr ""
 
-#: ../../variables/tags_basic.rst:0
+#: ../../variables/tags_basic.rst:71
 msgid ""
 "1 for Various Artist albums, otherwise empty. (*since Picard 1.3, compatible "
 "with iTunes*)"
@@ -236,7 +236,7 @@ msgstr ""
 "Bij uitgaven van diverse artiesten is de waarde 1, anders blijft de tag "
 "leeg. (*Sinds Picard 1.3, compatibel met iTunes.*)"
 
-#: ../../variables/tags_basic.rst:0
+#: ../../variables/tags_basic.rst:72
 msgid ""
 "1 if multiple track artists (including featured artists), otherwise 0. "
 "(*Picard 1.2 or previous*)"
@@ -350,8 +350,8 @@ msgid ""
 msgstr ""
 "De disc-ID is een code waarmee MusicBrainz fysieke cd’s aan een uitgave "
 "koppelt. Deze code is gebaseerd op de inhoudsopgave (ToC) die van de cd is "
-"gelezen. Deze tag bevat de disc-ID als de informatie over de uitgave via "
-":menuselection:`‘Hulpmiddelen --> Cd opzoeken …’` is geladen. (*Sinds Picard "
+"gelezen. Deze tag bevat de disc-ID als de informatie over de uitgave via :"
+"menuselection:`‘Hulpmiddelen --> Cd opzoeken …’` is geladen. (*Sinds Picard "
 "0.12.*)"
 
 #: ../../variables/tags_basic.rst:114
@@ -438,11 +438,11 @@ msgstr ""
 "``_releasegroup_firstreleasedate`` en is voor alle nummers van de uitgave "
 "hetzelfde. Als je deze tag liever gebruikt voor de datum van de eerste "
 "opname van het nummer in de databank, wat waarschijnlijk voor elk nummer van "
-"de uitgave anders is, kan je dat doen met een regel tagscript, zoals ``$set"
-"(originaldate,%_recording_firstreleasedate%)``. Houd er rekening mee dat als "
-"je ``%originaldate%`` gebruikt voor het bestandspad voor opgeslagen nummers, "
-"deze instelling ervoor zorgt dat de opnamen van een uitgave over meerdere "
-"mappen worden verspreid."
+"de uitgave anders is, kan je dat doen met een regel tagscript, zoals "
+"``$set(originaldate,%_recording_firstreleasedate%)``. Houd er rekening mee "
+"dat als je ``%originaldate%`` gebruikt voor het bestandspad voor opgeslagen "
+"nummers, deze instelling ervoor zorgt dat de opnamen van een uitgave over "
+"meerdere mappen worden verspreid."
 
 #: ../../variables/tags_basic.rst:142
 msgid ""
@@ -503,9 +503,9 @@ msgid ""
 "group. See also :ref:`_primaryreleasetype <ref_primaryreleasetype>` and :ref:"
 "`_secondaryreleasetype <ref_secondaryreleasetype>`."
 msgstr ""
-"Een meervoudige tag met de uitgavetypen van de uitgavegroep. Zie ook "
-":ref:`_primaryreleasetype <ref_primaryreleasetype>` en "
-":ref:`_secondaryreleasetype <ref_secondaryreleasetype>`."
+"Een meervoudige tag met de uitgavetypen van de uitgavegroep. Zie ook :ref:"
+"`_primaryreleasetype <ref_primaryreleasetype>` en :ref:"
+"`_secondaryreleasetype <ref_secondaryreleasetype>`."
 
 #: ../../variables/tags_basic.rst:160
 msgid "**script**"
@@ -661,62 +661,54 @@ msgid "The lyrics for the track."
 msgstr "De teksten van het nummer."
 
 #: ../../variables/tags_basic.rst:226
-msgid "**syncedlyrics**"
-msgstr ""
-
-#: ../../variables/tags_basic.rst:228
-msgid "The synchronized lyrics for the track. (*since Picard 3.0*)"
-msgstr ""
-
-#: ../../variables/tags_basic.rst:230
 msgid "**musicip_fingerprint**"
 msgstr "**musicip_fingerprint**"
 
-#: ../../variables/tags_basic.rst:232
+#: ../../variables/tags_basic.rst:228
 msgid "The MusicIP Fingerprint for the track."
 msgstr "De MusicIP-vingerafdruk van het nummer."
 
-#: ../../variables/tags_basic.rst:234
+#: ../../variables/tags_basic.rst:230
 msgid "**musicip_puid**"
 msgstr "**musicip_puid**"
 
-#: ../../variables/tags_basic.rst:236
+#: ../../variables/tags_basic.rst:232
 msgid "The MusicIP PUIDs associated with the track."
 msgstr "De MusicIP-PUID’s van het nummer."
 
-#: ../../variables/tags_basic.rst:238
+#: ../../variables/tags_basic.rst:234
 msgid "**originalalbum**"
 msgstr ""
 
-#: ../../variables/tags_basic.rst:240
+#: ../../variables/tags_basic.rst:236
 msgid ""
 "The release title of the earliest release in the release group intended for "
 "the title of the original recording."
 msgstr "De titel van de eerste uitgave in de uitgavegroep."
 
-#: ../../variables/tags_basic.rst:242
+#: ../../variables/tags_basic.rst:238
 msgid "**originalartist**"
 msgstr ""
 
-#: ../../variables/tags_basic.rst:244
+#: ../../variables/tags_basic.rst:240
 msgid ""
 "The track artist of the earliest release in the release group intended for "
 "the performers of the original recording."
 msgstr "De artiest van het nummer op de eerste uitgave in de uitgavegroep."
 
-#: ../../variables/tags_basic.rst:246
+#: ../../variables/tags_basic.rst:242
 msgid "**originalfilename**"
 msgstr "**originalfilename**"
 
-#: ../../variables/tags_basic.rst:248
+#: ../../variables/tags_basic.rst:244
 msgid "The original name of the audio file."
 msgstr "De oorspronkelijke bestandsnaam van het audiobestand."
 
-#: ../../variables/tags_basic.rst:250
+#: ../../variables/tags_basic.rst:246
 msgid "**releasedate**"
 msgstr "**releasedate**"
 
-#: ../../variables/tags_basic.rst:252
+#: ../../variables/tags_basic.rst:248
 msgid ""
 "Explicit tag for the release date (*since Picard 2.9*). This tag exists for "
 "specific use in scripts and plugins, but is not filled by default. In most "
@@ -728,23 +720,31 @@ msgstr ""
 "ingevuld. Voor compatibiliteit met bestaande software wordt aangeraden om de "
 "tag ``date`` te gebruiken."
 
-#: ../../variables/tags_basic.rst:254
+#: ../../variables/tags_basic.rst:250
 msgid "**showmovement**"
 msgstr "**showmovement**"
 
-#: ../../variables/tags_basic.rst:256
+#: ../../variables/tags_basic.rst:252
 msgid "The work and movement of the track."
 msgstr "De compositie en het compositiedeel van het nummer."
 
-#: ../../variables/tags_basic.rst:258
+#: ../../variables/tags_basic.rst:254
 msgid "**subtitle**"
 msgstr ""
 
-#: ../../variables/tags_basic.rst:260
+#: ../../variables/tags_basic.rst:256
 msgid "This is used for information directly related to the contents title."
 msgstr ""
 "Dit wordt gebruikt voor informatie die rechtstreeks aan de titel van de "
 "inhoud is gerelateerd."
+
+#: ../../variables/tags_basic.rst:258
+msgid "**syncedlyrics**"
+msgstr ""
+
+#: ../../variables/tags_basic.rst:260
+msgid "The synchronized lyrics for the track. (*since Picard 3.0*)"
+msgstr ""
 
 #: ../../variables/tags_basic.rst:262
 msgid "**titlesort**"

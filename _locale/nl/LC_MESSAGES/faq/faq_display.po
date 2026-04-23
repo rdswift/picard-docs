@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MusicBrainz Picard v3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-09 09:34-0600\n"
+"POT-Creation-Date: 2026-04-23 08:43+0200\n"
 "PO-Revision-Date: 2026-04-10 16:11+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Dutch <https://translations.metabrainz.org/projects/picard-"
@@ -93,7 +93,7 @@ msgstr ""
 msgid "Desktop Settings"
 msgstr ""
 
-#: ../../faq/faq_display.rst:0
+#: ../../faq/faq_display.rst:33
 msgid ""
 "The usual default way to change the scaling is to rely on the settings of "
 "the desktop environment, e.g. on GNOME the scaling set when configuring the "
@@ -104,7 +104,7 @@ msgstr ""
 msgid "Environment Settings"
 msgstr ""
 
-#: ../../faq/faq_display.rst:0
+#: ../../faq/faq_display.rst:37
 msgid ""
 "Setting the environment variable ``QT_SCALE_FACTOR`` will scale fonts for Qt "
 "applications. This can be useful on 4k monitors. From a terminal, you can "

@@ -8,10 +8,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MusicBrainz Picard v2.7.0b2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-31 09:30-0700\n"
+"POT-Creation-Date: 2026-04-23 08:43+0200\n"
 "PO-Revision-Date: 2026-03-12 17:12+0000\n"
-"Last-Translator: mfmeulenbelt "
-"<mfmeulenbelt@users.noreply.translations.metabrainz.org>\n"
+"Last-Translator: mfmeulenbelt <mfmeulenbelt@users.noreply.translations."
+"metabrainz.org>\n"
 "Language-Team: Dutch <https://translations.metabrainz.org/projects/picard-"
 "docs/index/nl/>\n"
 "Language: nl\n"
@@ -50,11 +50,11 @@ msgstr "Aanbevolen werkprocessen"
 msgid "Troubleshooting"
 msgstr "Problemen oplossen"
 
-#: ../../index.rst:83
+#: ../../index.rst:82
 msgid "Tutorials"
 msgstr "Korte handleidingen"
 
-#: ../../index.rst:94
+#: ../../index.rst:93
 msgid "Appendices"
 msgstr "Bijlagen"
 

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MusicBrainz Picard v3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-09 09:34-0600\n"
+"POT-Creation-Date: 2026-04-23 08:43+0200\n"
 "PO-Revision-Date: 2026-04-10 16:11+0000\n"
 "Last-Translator: Bob Swift <bswift@rsds.ca>\n"
 "Language-Team: French <https://translations.metabrainz.org/projects/picard-"
@@ -58,9 +58,9 @@ msgid ""
 "bigger-c3095a80-6edd-4779-9282-623c4d721d64>`_\"."
 msgstr ""
 "Des informations supplémentaires peuvent être trouvées dans l'article "
-"Windows intitulé « `Agrandir le texte et les applications <https://"
-"support.microsoft.com/en-us/windows/make-text-and-apps-bigger-c3095a80-6edd-"
-"4779-9282-623c4d721d64>`_ »."
+"Windows intitulé « `Agrandir le texte et les applications <https://support."
+"microsoft.com/en-us/windows/make-text-and-apps-bigger-"
+"c3095a80-6edd-4779-9282-623c4d721d64>`_ »."
 
 #: ../../faq/faq_display.rst:17
 msgid ""
@@ -120,7 +120,7 @@ msgstr "Voici deux façons de modifier la taille ou le redimensionnement :"
 msgid "Desktop Settings"
 msgstr "Paramètres du bureau"
 
-#: ../../faq/faq_display.rst:0
+#: ../../faq/faq_display.rst:33
 msgid ""
 "The usual default way to change the scaling is to rely on the settings of "
 "the desktop environment, e.g. on GNOME the scaling set when configuring the "
@@ -136,7 +136,7 @@ msgstr ""
 msgid "Environment Settings"
 msgstr "Paramètres d'environnement"
 
-#: ../../faq/faq_display.rst:0
+#: ../../faq/faq_display.rst:37
 msgid ""
 "Setting the environment variable ``QT_SCALE_FACTOR`` will scale fonts for Qt "
 "applications. This can be useful on 4k monitors. From a terminal, you can "

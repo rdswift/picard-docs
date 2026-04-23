@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MusicBrainz Picard v3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-09 09:34-0600\n"
+"POT-Creation-Date: 2026-04-23 08:43+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,7 +35,7 @@ msgstr ""
 msgid "**Is the script enabled?**"
 msgstr ""
 
-#: ../../faq/faq_scripting.rst:0
+#: ../../faq/faq_scripting.rst:13
 msgid ""
 "Make sure that the script is enabled in the scripting options. If the script "
 "is not enabled, it will not run automatically. You can run the script "
@@ -47,7 +47,7 @@ msgstr ""
 msgid "**Is there a syntax error in the script?**"
 msgstr ""
 
-#: ../../faq/faq_scripting.rst:0
+#: ../../faq/faq_scripting.rst:17
 msgid ""
 "If there is a syntax error in the script, it will not run and may show an "
 "error in the editor. Review the script for any syntax errors such as missing "
@@ -59,7 +59,7 @@ msgstr ""
 msgid "**Are all the functions used in the script valid?**"
 msgstr ""
 
-#: ../../faq/faq_scripting.rst:0
+#: ../../faq/faq_scripting.rst:21
 msgid ""
 "If you are using a function in your script that is not valid or does not "
 "exist, the script will not run. Make sure that all the functions you are "
@@ -72,7 +72,7 @@ msgstr ""
 msgid "**Have all reserved characters been escaped properly?**"
 msgstr ""
 
-#: ../../faq/faq_scripting.rst:0
+#: ../../faq/faq_scripting.rst:25
 msgid ""
 "If your script includes reserved characters such as commas, parentheses, or "
 "other special characters as part of an argument, make sure they are escaped "
@@ -131,7 +131,7 @@ msgstr ""
 msgid "**Are you using the correct syntax?**"
 msgstr ""
 
-#: ../../faq/faq_scripting.rst:0
+#: ../../faq/faq_scripting.rst:51
 msgid ""
 "Make sure you are using the correct tag or variable and value in the correct "
 "order, and that there are no typos."
@@ -141,7 +141,7 @@ msgstr ""
 msgid "**Are you using the correct tag or variable name?**"
 msgstr ""
 
-#: ../../faq/faq_scripting.rst:0
+#: ../../faq/faq_scripting.rst:55
 msgid ""
 "Make sure you are using the correct tag or variable name in your script. For "
 "example, if you want to check the artist name, you should use ``%artist%`` "
@@ -152,7 +152,7 @@ msgstr ""
 msgid "**Is the tag or variable you are checking actually populated?**"
 msgstr ""
 
-#: ../../faq/faq_scripting.rst:0
+#: ../../faq/faq_scripting.rst:59
 msgid ""
 "If the tag or variable you are checking is empty or not populated, the match "
 "will not work. Make sure that it has a value before the script runs. This "
@@ -166,7 +166,7 @@ msgstr ""
 msgid "**Is the spelling and capitalization correct?**"
 msgstr ""
 
-#: ../../faq/faq_scripting.rst:0
+#: ../../faq/faq_scripting.rst:63
 msgid ""
 "In general, the match tests are case-sensitive, so make sure that the "
 "spelling and capitalization of the value you are checking against matches "
@@ -177,7 +177,7 @@ msgstr ""
 msgid "**Are you using the correct operator?**"
 msgstr ""
 
-#: ../../faq/faq_scripting.rst:0
+#: ../../faq/faq_scripting.rst:67
 msgid ""
 "Make sure you are using the correct operator for your match. For example, if "
 "you want to check if a tag or variable contains a certain value, you should "
@@ -190,7 +190,7 @@ msgid ""
 "value argument?**"
 msgstr ""
 
-#: ../../faq/faq_scripting.rst:0
+#: ../../faq/faq_scripting.rst:71
 msgid ""
 "If there are leading or trailing spaces in the value or the value is "
 "enclosed within quotes, the match may not work as expected. This is a common "
