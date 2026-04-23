@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MusicBrainz Picard v3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-11 11:43-0700\n"
+"POT-Creation-Date: 2026-04-23 08:48+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -140,6 +140,6 @@ msgstr ""
 msgid "Changes made to a profile's options settings, enabled status, or position in the profile stack will be reflected in the option settings displayed on the other configuration pages."
 msgstr ""
 
-#: ../../config/configuration.rst:102
-msgid ":doc:`options_general` / :doc:`options_profiles` / :doc:`options_metadata` / :doc:`options_tags` / :doc:`options_cover` / :doc:`options_filerenaming` / :doc:`options_fingerprinting` / :doc:`options_cdlookup` / :doc:`options_plugins` / :doc:`options_scripting` / :doc:`options_interface` / :doc:`options_advanced`"
+#: ../../config/configuration.rst:103
+msgid ":doc:`options_general` / :doc:`options_profiles` / :doc:`options_metadata` / :doc:`options_tags` / :doc:`options_cover` / :doc:`options_filerenaming` / :doc:`options_fingerprinting` / :doc:`options_cdlookup` / :doc:`options_plugins` / :doc:`options_scripting` / :doc:`options_interface` / :doc:`options_player` / :doc:`options_advanced`"
 msgstr ""

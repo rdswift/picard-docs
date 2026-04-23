@@ -8,10 +8,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MusicBrainz Picard v2.7.0b2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-31 09:30-0700\n"
+"POT-Creation-Date: 2026-04-23 08:48+0200\n"
 "PO-Revision-Date: 2026-03-12 17:12+0000\n"
-"Last-Translator: mfmeulenbelt "
-"<mfmeulenbelt@users.noreply.translations.metabrainz.org>\n"
+"Last-Translator: mfmeulenbelt <mfmeulenbelt@users.noreply.translations."
+"metabrainz.org>\n"
 "Language-Team: Dutch <https://translations.metabrainz.org/projects/picard-"
 "docs/configoptions_interface/nl/>\n"
 "Language: nl\n"
@@ -102,9 +102,9 @@ msgid ""
 "maintained for the light and dark themes. The colors for the currently "
 "displayed theme are the ones displayed for editing."
 msgstr ""
-"Je kan de kleuren voor de lichte en donkere thema’s aanpassen in "
-":doc:`options_interface_colors`. Voor het lichte en het donkere thema zijn "
-"er verschillende kleurselecties. De kleuren voor het huidige thema worden "
+"Je kan de kleuren voor de lichte en donkere thema’s aanpassen in :doc:"
+"`options_interface_colors`. Voor het lichte en het donkere thema zijn er "
+"verschillende kleurselecties. De kleuren voor het huidige thema worden "
 "weergegeven om te wijzigen."
 
 #: ../../config/options_interface.rst:43
@@ -238,20 +238,10 @@ msgstr ""
 "inhoud zichtbaar te houden."
 
 #: ../../config/options_interface.rst:79
-msgid "**Enable audio player \"now playing\" notifications**"
-msgstr ""
-
-#: ../../config/options_interface.rst:81
-msgid ""
-"When enabled, Picard will send \"now playing\" notifications from the "
-"internal audio player."
-msgstr ""
-
-#: ../../config/options_interface.rst:83
 msgid "**Begin browsing in the following directory**"
 msgstr "**Met bladeren in de volgende map beginnen**"
 
-#: ../../config/options_interface.rst:85
+#: ../../config/options_interface.rst:81
 msgid ""
 "By default, Picard remembers the last directory used to load files. If you "
 "enable this option and provide a directory, Picard will always start in the "
@@ -261,7 +251,7 @@ msgstr ""
 "laden. Als je deze optie inschakelt en een map opgeeft, begint Picard altijd "
 "in die map."
 
-#: ../../config/options_interface.rst:91
+#: ../../config/options_interface.rst:87
 msgid ""
 "Details: :doc:`options_interface_colors` / :doc:"
 "`options_interface_top_tags` / :doc:`options_interface_coverart_box` / :doc:"

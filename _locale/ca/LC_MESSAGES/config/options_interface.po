@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MusicBrainz Picard v3.0rc1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-24 12:16-0700\n"
+"POT-Creation-Date: 2026-04-23 08:48+0200\n"
 "PO-Revision-Date: 2025-08-14 11:36+0000\n"
 "Last-Translator: Marc Riera <marc@marcriera.cat>\n"
 "Language-Team: Catalan <https://translations.metabrainz.org/projects/picard-"
@@ -237,20 +237,10 @@ msgstr ""
 "perquè el contingut rellevant es mantingui visible."
 
 #: ../../config/options_interface.rst:79
-msgid "**Enable audio player \"now playing\" notifications**"
-msgstr ""
-
-#: ../../config/options_interface.rst:81
-msgid ""
-"When enabled, Picard will send \"now playing\" notifications from the "
-"internal audio player."
-msgstr ""
-
-#: ../../config/options_interface.rst:83
 msgid "**Begin browsing in the following directory**"
 msgstr "**Inicia l'exploració al directori següent**"
 
-#: ../../config/options_interface.rst:85
+#: ../../config/options_interface.rst:81
 msgid ""
 "By default, Picard remembers the last directory used to load files. If you "
 "enable this option and provide a directory, Picard will always start in the "
@@ -260,7 +250,7 @@ msgstr ""
 "fitxers. Si habiliteu aquesta opció i proporcioneu un directori, Picard "
 "sempre s'iniciarà al directori proporcionat."
 
-#: ../../config/options_interface.rst:91
+#: ../../config/options_interface.rst:87
 #, fuzzy
 msgid ""
 "Details: :doc:`options_interface_colors` / :doc:"

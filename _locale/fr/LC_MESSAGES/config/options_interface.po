@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MusicBrainz Picard v2.3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-24 12:16-0700\n"
+"POT-Creation-Date: 2026-04-23 08:48+0200\n"
 "PO-Revision-Date: 2026-03-19 12:30-0600\n"
 "Last-Translator: Bob Swift <bswift@rsds.ca>\n"
 "Language-Team: French <https://translations.metabrainz.org/projects/picard-"
@@ -261,22 +261,10 @@ msgstr ""
 "visible."
 
 #: ../../config/options_interface.rst:79
-msgid "**Enable audio player \"now playing\" notifications**"
-msgstr "**Activer les notifications « En cours de lecture » du lecteur audio**"
-
-#: ../../config/options_interface.rst:81
-msgid ""
-"When enabled, Picard will send \"now playing\" notifications from the "
-"internal audio player."
-msgstr ""
-"Lorsque cette option est activée, Picard enverra des notifications « En "
-"cours de lecture » depuis le lecteur audio intégré."
-
-#: ../../config/options_interface.rst:83
 msgid "**Begin browsing in the following directory**"
 msgstr "**Commencez à naviguer dans le répertoire suivant**"
 
-#: ../../config/options_interface.rst:85
+#: ../../config/options_interface.rst:81
 msgid ""
 "By default, Picard remembers the last directory used to load files. If you "
 "enable this option and provide a directory, Picard will always start in the "
@@ -286,7 +274,7 @@ msgstr ""
 "les fichiers. Si vous activez cette option et fournissez un répertoire, "
 "Picard démarrera toujours dans le répertoire fourni."
 
-#: ../../config/options_interface.rst:91
+#: ../../config/options_interface.rst:87
 msgid ""
 "Details: :doc:`options_interface_colors` / :doc:"
 "`options_interface_top_tags` / :doc:`options_interface_coverart_box` / :doc:"
@@ -295,6 +283,17 @@ msgstr ""
 "Détails: :doc:`options_interface_colors` / :doc:"
 "`options_interface_top_tags` / :doc:`options_interface_coverart_box` / :doc:"
 "`options_interface_quick_menu` / :doc:`options_interface_toolbar`"
+
+#~ msgid "**Enable audio player \"now playing\" notifications**"
+#~ msgstr ""
+#~ "**Activer les notifications « En cours de lecture » du lecteur audio**"
+
+#~ msgid ""
+#~ "When enabled, Picard will send \"now playing\" notifications from the "
+#~ "internal audio player."
+#~ msgstr ""
+#~ "Lorsque cette option est activée, Picard enverra des notifications « En "
+#~ "cours de lecture » depuis le lecteur audio intégré."
 
 #~ msgid "User Interface Options"
 #~ msgstr "Options d'interface utilisateur"
