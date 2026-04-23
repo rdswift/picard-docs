@@ -26,7 +26,7 @@
 
 **Submit only tagged files**
 
-    When enabled, Picard will only submit tracks that have been tagged with MusicBrainz metadata. This option is enabled by default, as untagged files have often wrong or missing metadata.
+    When enabled, Picard will only submit tracks that have been tagged with MusicBrainz metadata. This option is enabled by default, as untagged files often have missing or incorrect metadata.
 
 **ListenBrainz user token**
 
@@ -35,7 +35,7 @@
 
 .. note::
 
-    The Audio Player options are only available, if the built-in audio player is available. The player can be unavailable if the system is missing the required Qt Multimedia libraries. It can also be disabled with the ``--no-player`` command line option.
+    The Audio Player options are only available if the built-in audio player is available. The player can be unavailable if the system is missing the required Qt Multimedia libraries. It can also be disabled with the ``--no-player`` command line option.
 
 .. seealso::
 
