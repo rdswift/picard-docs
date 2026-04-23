@@ -1,7 +1,7 @@
 .. MusicBrainz Picard Documentation Project
 
-:index:`Audio Player Options <pair: configuration; audio player; listenbrainz>`
-===============================================================================
+:index:`Audio Player Options <triple: configuration; audio player; listenbrainz>`
+=================================================================================
 
 .. only:: not latex
 
