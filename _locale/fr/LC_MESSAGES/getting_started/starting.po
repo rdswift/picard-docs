@@ -3,22 +3,22 @@
 # This file is distributed under the same license as the MusicBrainz Picard
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-# Bob Swift <bswift@rsds.ca>, 2023.
+# Bob Swift <bswift@rsds.ca>, 2023, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: MusicBrainz Picard v2.9alpha1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-13 10:29-0700\n"
-"PO-Revision-Date: 2023-08-30 00:43+0000\n"
+"PO-Revision-Date: 2026-04-24 18:22+0000\n"
 "Last-Translator: Bob Swift <bswift@rsds.ca>\n"
-"Language-Team: French <https://translations.metabrainz.org/projects/"
-"picard-docs/getting_startedstarting/fr/>\n"
+"Language-Team: French <https://translations.metabrainz.org/projects/picard-"
+"docs/getting_startedstarting/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.18.2\n"
+"X-Generator: Weblate 5.17\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../../getting_started/starting.rst:4
@@ -62,15 +62,15 @@ msgstr ""
 "Depuis la version 2.9, Picard essaie de ne faire tourner qu'une seule "
 "instance du programme à la fois. Lorsque le programme est lancé, il vérifie "
 "si une autre instance de cette version, de ce fichier de configuration et de "
-"ce statut de démarrage de plugin ``-P`` est déjà en cours d'exécution. Si "
-"la même version est déjà en cours d'exécution, tous les fichiers ou "
-"répertoires spécifiés sur la ligne de commande de la nouvelle instance, "
-"ainsi que toutes les commandes exécutables spécifiées avec les options ``-"
-"e`` ou ``--exec`` seront transmises à l'instance déjà en cours d'exécution "
-"pour traitement et la nouvelle instance dupliquée sera arrêtée.  Cela permet "
-"de lancer automatiquement le traitement par lot de fichiers à partir "
-"d'autres processus. S'il n'y a pas d'instance de cette version en cours "
-"d'exécution, Picard démarrera normalement."
+"ce statut de démarrage de plugin ``-P`` est déjà en cours d'exécution. Si la "
+"même version est déjà en cours d'exécution, tous les fichiers ou répertoires "
+"spécifiés sur la ligne de commande de la nouvelle instance, ainsi que toutes "
+"les commandes exécutables spécifiées avec les options ``-e`` ou ``--exec`` "
+"seront transmises à l'instance déjà en cours d'exécution pour traitement et "
+"la nouvelle instance dupliquée sera arrêtée. Cela permet de lancer "
+"automatiquement le traitement par lot de fichiers à partir d'autres "
+"processus. S'il n'y a pas d'instance de cette version en cours d'exécution, "
+"Picard démarrera normalement."
 
 #: ../../getting_started/starting.rst:10
 msgid ""

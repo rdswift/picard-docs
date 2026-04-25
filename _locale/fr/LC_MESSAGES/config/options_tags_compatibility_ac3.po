@@ -3,22 +3,23 @@
 # This file is distributed under the same license as the MusicBrainz Picard
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
-#
+# Bob Swift <bswift@rsds.ca>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: MusicBrainz Picard v2.3.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-24 12:16-0700\n"
-"PO-Revision-Date: 2026-03-19 11:26-0600\n"
+"PO-Revision-Date: 2026-04-25 05:03+0000\n"
 "Last-Translator: Bob Swift <bswift@rsds.ca>\n"
-"Language-Team: \n"
+"Language-Team: French <https://translations.metabrainz.org/projects/picard-"
+"docs/configoptions_tags_compatibility_ac3/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.17\n"
 "Generated-By: Babel 2.8.0\n"
-"X-Generator: Poedit 3.0.1\n"
 
 #: ../../config/options_tags_compatibility_ac3.rst:4
 msgid ":index:`AC3 Files <configuration; ac3 tag options>`"
@@ -42,7 +43,7 @@ msgstr ""
 
 #: ../../config/options_tags_compatibility_ac3.rst:19
 msgid "**Save APEv2 tags**"
-msgstr "** Enregistrer les tags APEv2 **"
+msgstr "**Enregistrer les tags APEv2**"
 
 #: ../../config/options_tags_compatibility_ac3.rst:21
 msgid "Picard will save APEv2 tags to the files."
@@ -63,7 +64,7 @@ msgstr ""
 
 #: ../../config/options_tags_compatibility_ac3.rst:27
 msgid "**Remove APEv2 tags**"
-msgstr "** Supprimer les balises APEv2 **"
+msgstr "**Supprimer les balises APEv2**"
 
 #: ../../config/options_tags_compatibility_ac3.rst:29
 msgid ""

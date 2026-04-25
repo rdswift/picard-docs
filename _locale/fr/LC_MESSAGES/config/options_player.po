@@ -1,15 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2026, MetaBrainz Foundation.
 # This file is distributed under the same license as the MusicBrainz Picard package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# Bob Swift <bswift@rsds.ca>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: MusicBrainz Picard v3.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-23 10:31-0600\n"
-"PO-Revision-Date: 2026-04-23 06:51+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2026-04-25 05:03+0000\n"
+"Last-Translator: Bob Swift <bswift@rsds.ca>\n"
 "Language-Team: French <https://translations.metabrainz.org/projects/picard-"
 "docs/configoptions_player/fr/>\n"
 "Language: fr\n"
@@ -24,9 +23,10 @@ msgid ""
 ":index:`Audio Player Options <triple: configuration; audio player; "
 "listenbrainz>`"
 msgstr ""
+":index:`Options du lecteur audio <triple: configuration; lecteur audio; "
+"listenbrainz>`"
 
 #: ../../config/options_player.rst:19
-#, fuzzy
 msgid "**Enable audio player \"now playing\" notifications**"
 msgstr "**Activer les notifications « En cours de lecture » du lecteur audio**"
 
@@ -36,20 +36,26 @@ msgid ""
 "internal audio player. The availability of this option depends on the "
 "operating system. Currently this is available for macOS and on Linux."
 msgstr ""
+"Lorsque cette option est activée, Picard envoie des notifications « En cours "
+"de lecture » depuis le lecteur audio intégré. La disponibilité de cette "
+"option dépend du système d'exploitation. Elle est actuellement disponible "
+"sous macOS et sous Linux."
 
 #: ../../config/options_player.rst:23
 msgid "**Submit listens to ListenBrainz**"
-msgstr ""
+msgstr "**Envoyer vos écoutes à ListenBrainz**"
 
 #: ../../config/options_player.rst:25
 msgid ""
 "When enabled, Picard will submit listened tracks to your `ListenBrainz "
 "<https://listenbrainz.org>`_ profile."
 msgstr ""
+"Lorsque cette option est activée, Picard enverra les morceaux écoutés vers "
+"votre profil `ListenBrainz <https://listenbrainz.org>`_."
 
 #: ../../config/options_player.rst:27
 msgid "**Submit only tagged files**"
-msgstr ""
+msgstr "**N'envoyer que les fichiers balisés**"
 
 #: ../../config/options_player.rst:29
 msgid ""
@@ -57,10 +63,14 @@ msgid ""
 "MusicBrainz metadata. This option is enabled by default, as untagged files "
 "often have missing or incorrect metadata."
 msgstr ""
+"Lorsque cette option est activée, Picard n'enverra que les morceaux ayant "
+"été balisés avec des métadonnées MusicBrainz. Cette option est activée par "
+"défaut, car les fichiers non balisés présentent souvent des métadonnées "
+"manquantes ou incorrectes."
 
 #: ../../config/options_player.rst:31
 msgid "**ListenBrainz user token**"
-msgstr ""
+msgstr "**Jeton d'utilisateur ListenBrainz**"
 
 #: ../../config/options_player.rst:33
 msgid ""
@@ -68,6 +78,9 @@ msgid ""
 "profile. You can find your token on your `ListenBrainz settings page "
 "<https://listenbrainz.org/settings/>`_."
 msgstr ""
+"Saisissez ici votre jeton d'utilisateur ListenBrainz pour activer l'envoi "
+"d'écoutes vers votre profil. Vous trouverez votre jeton sur la page `des "
+"paramètres de ListenBrainz <https://listenbrainz.org/settings/>`_."
 
 #: ../../config/options_player.rst:38
 msgid ""
@@ -76,7 +89,12 @@ msgid ""
 "required Qt Multimedia libraries. It can also be disabled with the ``--no-"
 "player`` command line option."
 msgstr ""
+"Les options du lecteur audio ne sont disponibles que si le lecteur audio "
+"intégré est présent. Le lecteur peut ne pas être disponible si les "
+"bibliothèques Qt Multimedia requises sont absentes du système. Il peut "
+"également être désactivé à l'aide de l'option de ligne de commande ``--no-"
+"player``."
 
 #: ../../config/options_player.rst:42
 msgid ":doc:`../appendices/command_line`"
-msgstr ""
+msgstr ":doc:`../appendices/command_line`"

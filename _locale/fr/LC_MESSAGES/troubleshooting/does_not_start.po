@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: MusicBrainz Picard v2.5.4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-11 23:26+0100\n"
-"PO-Revision-Date: 2026-03-21 17:23+0000\n"
+"PO-Revision-Date: 2026-04-24 18:22+0000\n"
 "Last-Translator: Bob Swift <bswift@rsds.ca>\n"
 "Language-Team: French <https://translations.metabrainz.org/projects/picard-"
 "docs/troubleshootingdoes_not_start/fr/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../../troubleshooting/does_not_start.rst:4
@@ -41,7 +41,7 @@ msgstr ""
 "Picard à partir de la ligne de commande avec l'option :option:`-d` pour "
 "générer la journalisation du débogage. Ce processus est décrit dans la "
 "section :doc:`troubleshooting`. Si les journaux résultants ne fournissent "
-"aucun indice sur le problème, il peut s'agir de l'un des éléments suivants:"
+"aucun indice sur le problème, il peut s'agir de l'un des éléments suivants :"
 
 #: ../../troubleshooting/does_not_start.rst:8
 msgid "**The program files have become corrupted**"
@@ -80,19 +80,19 @@ msgstr ""
 "plugins en utilisant les paramètres 'Option' de Picard, vous devrez les "
 "supprimer manuellement. Les plugins peuvent être situés dans un sous-"
 "répertoire ``plugins`` du répertoire où est stocké le fichier programme "
-"Picard, ou dans un répertoire spécifique à l'utilisateur:"
+"Picard, ou dans un répertoire spécifique à l'utilisateur :"
 
 #: ../../troubleshooting/does_not_start.rst:16
 msgid ""
 "*Windows*: :file:`C:\\\\Users\\\\\\\\{user}\\\\AppData\\\\Local\\"
 "\\MusicBrainz\\\\Picard\\\\plugins`"
 msgstr ""
-"*Windows*: :file:`C:\\\\Users\\\\\\\\{user}\\\\AppData\\\\Local\\"
-"\\MusicBrainz\\\\Picard\\\\plugins`"
+"*Windows* : :file:`C:\\\\Users\\\\\\\\{user}\\\\AppData\\\\Local\\\\M"
+"usicBrainz\\\\Picard\\\\plugins`"
 
 #: ../../troubleshooting/does_not_start.rst:17
 msgid "*macOS*: :file:`~/Library/Preferences/MusicBrainz/Picard/plugins`"
-msgstr "*macOS*: :file:`~/Library/Preferences/MusicBrainz/Picard/plugins`"
+msgstr "*macOS* : :file:`~/Library/Preferences/MusicBrainz/Picard/plugins`"
 
 #: ../../troubleshooting/does_not_start.rst:18
 msgid "*Linux*: :file:`~/.local/share/MusicBrainz/Picard/plugins`"
@@ -133,23 +133,23 @@ msgstr ""
 "démarrer Picard. Si Picard est démarré sans trouver son fichier de "
 "paramètres de configuration, il en créera un nouveau en utilisant les "
 "paramètres par défaut. Le fichier de paramètres s'appelle :file:`Picard.ini` "
-"et se trouve dans un répertoire spécifique à l'utilisateur:"
+"et se trouve dans un répertoire spécifique à l'utilisateur :"
 
 #: ../../troubleshooting/does_not_start.rst:26
 msgid ""
 "*Windows*: :file:`C:\\\\Users\\\\\\\\{user}\\\\AppData\\\\Roaming\\"
 "\\MusicBrainz`"
 msgstr ""
-"*Windows*: :file:`C:\\\\Users\\\\\\\\{user}\\\\AppData\\\\Roaming\\"
-"\\MusicBrainz`"
+"*Windows* : :file:`C:\\\\Users\\\\\\\\{user}\\\\AppData\\\\Roaming\\\\M"
+"usicBrainz`"
 
 #: ../../troubleshooting/does_not_start.rst:27
 msgid "*macOS*: :file:`~/Library/Preferences/MusicBrainz`"
-msgstr "*macOS*: :file:`~/Library/Preferences/MusicBrainz`"
+msgstr "*macOS* : :file:`~/Library/Preferences/MusicBrainz`"
 
 #: ../../troubleshooting/does_not_start.rst:28
 msgid "*Linux*: :file:`~/.config/MusicBrainz`"
-msgstr "*Linux*: :file:`~/.config/MusicBrainz`"
+msgstr "*Linux* : :file:`~/.config/MusicBrainz`"
 
 #: ../../troubleshooting/does_not_start.rst:30
 msgid ""

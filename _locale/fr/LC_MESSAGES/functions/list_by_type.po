@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: MusicBrainz Picard v2.3.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-09 09:34-0600\n"
-"PO-Revision-Date: 2026-04-10 16:11+0000\n"
+"PO-Revision-Date: 2026-04-24 18:22+0000\n"
 "Last-Translator: Bob Swift <bswift@rsds.ca>\n"
 "Language-Team: French <https://translations.metabrainz.org/projects/picard-"
 "docs/functionslist_by_type/fr/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../../functions/list_by_type.rst:4
@@ -70,7 +70,7 @@ msgid ""
 msgstr ""
 "Ces fonctions sont utilisées pour affecter (ou annuler l'attribution) d'une "
 "valeur à une balise ou une variable. Les fonctions de script d'affectation "
-"sont:"
+"sont :"
 
 #: ../../functions/list_by_type.rst:32
 msgid ":doc:`func_copy`"
@@ -105,9 +105,9 @@ msgid ""
 "These functions are used to manage text (e.g.: extract, replace or format) "
 "in tags or variables. The text scripting functions are:"
 msgstr ""
-"Ces fonctions permettent de gérer du texte (ex: extraire, remplacer ou "
+"Ces fonctions permettent de gérer du texte (ex : extraire, remplacer ou "
 "formater) dans des balises ou des variables. Les fonctions de script de "
-"texte sont:"
+"texte sont :"
 
 #: ../../functions/list_by_type.rst:75
 msgid ":doc:`func_delprefix`"
@@ -212,7 +212,7 @@ msgid ""
 "value scripting functions are:"
 msgstr ""
 "Ces fonctions permettent de gérer des balises ou des variables à valeurs "
-"multiples. Les fonctions de script à valeurs multiples sont:"
+"multiples. Les fonctions de script à valeurs multiples sont :"
 
 #: ../../functions/list_by_type.rst:124
 msgid ":doc:`func_cleanmulti`"
@@ -268,7 +268,7 @@ msgid ""
 "variables. The mathematical scripting functions are:"
 msgstr ""
 "Ces fonctions sont utilisées pour effectuer des opérations arithmétiques sur "
-"des balises ou des variables. Les fonctions de script mathématiques sont:"
+"des balises ou des variables. Les fonctions de script mathématiques sont :"
 
 #: ../../functions/list_by_type.rst:155
 msgid ":doc:`func_add`"
@@ -428,7 +428,7 @@ msgid ""
 "information scripting functions are:"
 msgstr ""
 "Ces fonctions fournissent des informations supplémentaires sur le système ou "
-"les données. Les fonctions de script d'informations sont:"
+"les données. Les fonctions de script d'informations sont :"
 
 #: ../../functions/list_by_type.rst:263
 msgid ":doc:`func_countryname`"
@@ -478,7 +478,7 @@ msgid ""
 msgstr ""
 "Ces fonctions offrent la possibilité de répéter des actions en fonction du "
 "contenu d'une variable à valeurs multiples ou du résultat d'un test "
-"conditionnel. Les fonctions de script de boucle sont:"
+"conditionnel. Les fonctions de script de boucle sont :"
 
 #: ../../functions/list_by_type.rst:289
 msgid ":doc:`func_foreach`"
@@ -494,7 +494,7 @@ msgstr ":index:`Fonctions diverses <fonctions de script; divers>`"
 
 #: ../../functions/list_by_type.rst:296
 msgid "The miscellaneous scripting functions are:"
-msgstr "Les diverses fonctions de script sont:"
+msgstr "Les diverses fonctions de script sont :"
 
 #: ../../functions/list_by_type.rst:307
 msgid ":doc:`func_noop`"

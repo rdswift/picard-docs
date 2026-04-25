@@ -4,14 +4,14 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
 # Philipp Wolfer <ph.wolfer@gmail.com>, 2021.
-# Bob Swift <bswift@rsds.ca>, 2021, 2022, 2023, 2024.
+# Bob Swift <bswift@rsds.ca>, 2021, 2022, 2023, 2024, 2026.
 # phw <ph.wolfer@gmail.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: MusicBrainz Picard v2.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-30 11:08-0600\n"
-"PO-Revision-Date: 2026-03-19 14:39-0600\n"
+"PO-Revision-Date: 2026-04-25 05:03+0000\n"
 "Last-Translator: Bob Swift <bswift@rsds.ca>\n"
 "Language-Team: French <https://translations.metabrainz.org/projects/picard-"
 "docs/appendiceskeyboard_shortcuts/fr/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Weblate 5.17\n"
 "Generated-By: Babel 2.10.1\n"
 
 #: ../../appendices/keyboard_shortcuts.rst:14
@@ -270,7 +270,7 @@ msgstr ":kbd:`⌘+U`"
 
 #: ../../appendices/keyboard_shortcuts.rst:1
 msgid "Lookup in browser"
-msgstr "Recherche dans le navigateur"
+msgstr "Rechercher dans le navigateur"
 
 #: ../../appendices/keyboard_shortcuts.rst:1
 msgid ":kbd:`Ctrl+Shift+L`"
@@ -359,7 +359,7 @@ msgstr "Afficher le journal d'erreur/débogage"
 
 #: ../../appendices/keyboard_shortcuts.rst:1
 msgid ":kbd:`Ctrl+G`"
-msgstr ":kbd:`Ctrl+Y`"
+msgstr ":kbd:`Ctrl+G`"
 
 #: ../../appendices/keyboard_shortcuts.rst:1
 msgid ":kbd:`⌘+G`"

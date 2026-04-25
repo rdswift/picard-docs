@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: MusicBrainz Picard v2.3.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-11 23:26+0100\n"
-"PO-Revision-Date: 2026-03-21 17:23+0000\n"
+"PO-Revision-Date: 2026-04-24 18:22+0000\n"
 "Last-Translator: Bob Swift <bswift@rsds.ca>\n"
 "Language-Team: French <https://translations.metabrainz.org/projects/picard-"
 "docs/functionslist_by_name/fr/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../../functions/list_by_name.rst:6
@@ -27,7 +27,7 @@ msgstr "Annexe D : Fonctions de script classées par ordre alphabétique"
 
 #: ../../functions/list_by_name.rst:10
 msgid "The available scripting functions are:"
-msgstr "Les fonctions de script disponibles sont:"
+msgstr "Les fonctions de script disponibles sont :"
 
 #: ../../functions/list_by_name.rst:20
 msgid ""

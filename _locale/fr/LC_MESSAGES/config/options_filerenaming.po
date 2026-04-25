@@ -3,23 +3,23 @@
 # This file is distributed under the same license as the MusicBrainz Picard
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
-# Bob Swift <bswift@rsds.ca>, 2021, 2022, 2023.
+# Bob Swift <bswift@rsds.ca>, 2021, 2022, 2023, 2026.
 # Philipp Wolfer <ph.wolfer@gmail.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: MusicBrainz Picard v2.3.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-24 12:16-0700\n"
-"PO-Revision-Date: 2026-03-19 12:01-0600\n"
+"PO-Revision-Date: 2026-04-25 05:03+0000\n"
 "Last-Translator: Bob Swift <bswift@rsds.ca>\n"
-"Language-Team: French <https://translate.uploadedlobster.com/projects/picard-"
+"Language-Team: French <https://translations.metabrainz.org/projects/picard-"
 "docs/configoptions_filerenaming/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Weblate 5.17\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../../config/options_filerenaming.rst:6
@@ -273,8 +273,8 @@ msgstr ""
 "disponibles. Les scripts peuvent être des scripts prédéfinis par le système "
 "ou des scripts définis par l'utilisateur. Les scripts disponibles sont gérés "
 "dans l'écran :doc:`Éditer le script… <options_filerenaming_editor>`, qui "
-"s'affiche lorsque le bouton \"Ouvrir l'éditeur de script de nommage de "
-"fichier\" est sélectionné."
+"s'affiche lorsque le bouton :guilabel:`Modifier le script...` est "
+"sélectionné."
 
 #: ../../config/options_filerenaming.rst:72
 msgid "**Files will be named like this**"
@@ -301,11 +301,9 @@ msgid ""
 "You can change the randomly selected example files from your selected files "
 "list by clicking on the :guilabel:`Reload examples` button."
 msgstr ""
-"Les scripts sont souvent abordés dans le `MetaBrainz Community Forum "
-"<https://community.metabrainz.org/>`_, et il existe un fil de discussion "
-"spécifique à `la dénomination de fichier et les extraits de script <https://"
-"community.metabrainz.org/t/repository-for-neat-file-name-string-patterns-and-"
-"tagger-script-snippets/2786/>`_."
+"Vous pouvez modifier les fichiers d'exemple sélectionnés au hasard dans "
+"votre liste de fichiers en cliquant sur le bouton :guilabel:`Recharger les "
+"exemples`."
 
 #: ../../config/options_filerenaming.rst:80
 msgid ""

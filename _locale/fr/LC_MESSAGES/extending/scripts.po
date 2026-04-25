@@ -3,23 +3,23 @@
 # This file is distributed under the same license as the MusicBrainz Picard
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
-# Bob Swift <bswift@rsds.ca>, 2021.
+# Bob Swift <bswift@rsds.ca>, 2021, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: MusicBrainz Picard v2.3.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-14 08:09+0100\n"
-"PO-Revision-Date: 2022-05-04 13:00-0600\n"
+"PO-Revision-Date: 2026-04-24 18:22+0000\n"
 "Last-Translator: Bob Swift <bswift@rsds.ca>\n"
-"Language-Team: French <https://translate.uploadedlobster.com/projects/picard-"
+"Language-Team: French <https://translations.metabrainz.org/projects/picard-"
 "docs/extendingscripts/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.17\n"
 "Generated-By: Babel 2.9.1\n"
-"X-Generator: Poedit 3.0.1\n"
 
 #: ../../extending/scripts.rst:4
 msgid ":index:`Scripts <scripts>`"
@@ -37,16 +37,16 @@ msgid ""
 "org/t/repository-for-neat-file-name-string-patterns-and-tagger-script-"
 "snippets/2786/>`_."
 msgstr ""
-"Il existe deux types de scripts utilisés dans Picard: le script de nommage "
+"Il existe deux types de scripts utilisés dans Picard : le script de nommage "
 "des fichiers et les scripts de marquage. Ils sont gérés à partir des "
-"sections \"Nommage des fichiers\" et \"Scripting\" du menu :menuselection:"
-"`\"Options --> Options...\"`. Tous les scripts sont écrits en utilisant le :"
-"doc:`Langage de script Picard <scripting>`. Les scripts sont souvent "
-"discutés dans le `Forum communautaire de MetaBrainz <https://community."
-"metabrainz.org/c/picard>`_, et il y a un fil spécifique au `nommage des "
-"fichiers et aux extraits de scripts <https://community.metabrainz.org/t/"
-"repository-for-neat-file-name-string-patterns-and-tagger-script-"
-"snippets/2786/>`_."
+"sections \"Nommage des fichiers\" et \"Scripting\" du menu "
+":menuselection:`\"Options --> Options...\"`. Tous les scripts sont écrits en "
+"utilisant le :doc:`Langage de script Picard <scripting>`. Les scripts sont "
+"souvent discutés dans le `Forum communautaire de MetaBrainz <https://"
+"community.metabrainz.org/c/picard>`_, et il y a un fil spécifique au "
+"`nommage des fichiers et aux extraits de scripts <https://"
+"community.metabrainz.org/t/repository-for-neat-file-name-string-patterns-and-"
+"tagger-script-snippets/2786/>`_."
 
 #: ../../extending/scripts.rst:9
 msgid ":index:`File Naming Script <pair: file naming; scripts>`"
@@ -117,27 +117,27 @@ msgstr ""
 "est traité une fois pour chaque piste de l'album qui a déclenché la lecture. "
 "Par exemple, si deux scripts de balisage sont activés (A et B) et qu'un "
 "album avec trois pistes est chargé, les scripts seront traités dans l'ordre "
-"suivant:"
+"suivant :"
 
 #: ../../extending/scripts.rst:24
 msgid "Script A Track 1;"
-msgstr "Script A Track 1;"
+msgstr "Script A, piste 1 ;"
 
 #: ../../extending/scripts.rst:25
 msgid "Script A Track 2;"
-msgstr "Script A Track 2;"
+msgstr "Script A, piste 2 ;"
 
 #: ../../extending/scripts.rst:26
 msgid "Script A Track 3;"
-msgstr "Script A Track 3;"
+msgstr "Script A, piste 3 ;"
 
 #: ../../extending/scripts.rst:27
 msgid "Script B Track 1;"
-msgstr "Script B Track 1;"
+msgstr "Script B, piste 1 ;"
 
 #: ../../extending/scripts.rst:28
 msgid "Script B Track 2;"
-msgstr "Script B Track 2;"
+msgstr "Script B, piste 2 ;"
 
 #: ../../extending/scripts.rst:29
 msgid "Script B Track 3."
@@ -206,7 +206,7 @@ msgstr "Déplacer la désambiguïsation vers le titre de l'album"
 #: ../../extending/scripts.rst:47
 msgid "Append the disambiguation comment of a release to the album title:"
 msgstr ""
-"Ajoute le commentaire de désambiguïsation d'une sortie au titre de l'album:"
+"Ajoute le commentaire de désambiguïsation d'une sortie au titre de l'album :"
 
 #: ../../extending/scripts.rst:55
 msgid "Release language as language"
@@ -221,8 +221,8 @@ msgid ""
 msgstr ""
 "La variable ``%_releaselanguage%`` spécifie la langue de la liste des "
 "pistes, alors que la variable ``%language%`` est supposée être la langue des "
-"paroles. Le script suivant utilisera la variable ``%_releaselanguage%`` à "
-"la place si ``%language%`` est vide:"
+"paroles. Le script suivant utilisera la variable ``%_releaselanguage%`` à la "
+"place si ``%language%`` est vide :"
 
 #: ../../extending/scripts.rst:65
 msgid "Use original release date"
@@ -244,7 +244,7 @@ msgstr ""
 "réédition en 2020 d'un album qui est sorti en 1992. Dans ce cas, ``date`` "
 "sera mis à \"2020\" et ``originaldate`` à \"1992\". Si vous préférez avoir "
 "toujours la date de sortie originale comme date principale dans les balises "
-"de votre fichier, vous pouvez utiliser le script suivant:"
+"de votre fichier, vous pouvez utiliser le script suivant :"
 
 #: ../../extending/scripts.rst:73
 msgid ""
@@ -264,7 +264,7 @@ msgstr ""
 "De plus, Picard fournit une variable ``%_recording_firstreleasedate%``, qui "
 "essaie de fournir la première date de sortie par enregistrement (qui peut "
 "être différente pour chaque piste dans une sortie). Si vous préférez cela, "
-"vous pouvez utiliser le script suivant:"
+"vous pouvez utiliser le script suivant :"
 
 #: ../../extending/scripts.rst:81
 msgid ""
@@ -286,9 +286,9 @@ msgid ""
 "a meaningful value with prefixes \"The\" and \"A\" moved to the end with the "
 "following script:"
 msgstr ""
-"La balise ``albumsort`` n'est pas remplie par Picard par défaut. Vous "
-"pouvez lui donner une valeur significative avec les préfixes \"The\" et "
-"\"A\" déplacés à la fin avec le script suivant:"
+"La balise ``albumsort`` n'est pas remplie par Picard par défaut. Vous pouvez "
+"lui donner une valeur significative avec les préfixes \"The\" et \"A\" "
+"déplacés à la fin avec le script suivant :"
 
 #: ../../extending/scripts.rst:97
 msgid ""
@@ -311,7 +311,7 @@ msgstr ""
 "Par défaut, la balise ``compilation`` sera mise à 1 uniquement pour les "
 "sorties Various Artists. Le script suivant le définira pour toutes les "
 "sorties avec plus d'un artiste (comme c'était le comportement par défaut "
-"dans Picard 1.2 et antérieur):"
+"dans Picard 1.2 et antérieur) :"
 
 #: ../../extending/scripts.rst:111
 msgid "Remove featuring from album artist"
@@ -320,7 +320,7 @@ msgstr "Supprimer le featuring de l'artiste de l'album"
 #: ../../extending/scripts.rst:113
 msgid "This always removes featuring artists from the album artist:"
 msgstr ""
-"Cela supprime toujours les artistes en vedette de l'artiste de l'album:"
+"Cela supprime toujours les artistes en vedette de l'artiste de l'album :"
 
 #: ../../extending/scripts.rst:121
 msgid "Move featuring from artist to title"
@@ -334,10 +334,10 @@ msgid ""
 "featured track artists to the track title:"
 msgstr ""
 "Selon les directives de MusicBrainz, les artistes en featuring font partie "
-"du nom de l'artiste, par exemple \"Artist A feat. Artist B\". Certains "
+"du nom de l'artiste, par exemple « Artist A feat. Artist B ». Certains "
 "utilisateurs préfèrent que le featuring soit ajouté au titre de l'album ou "
-"de la piste. Le script suivant déplace les artistes en vedette vers le "
-"titre de la piste:"
+"de la piste. Le script suivant déplace les artistes en vedette vers le titre "
+"de la piste :"
 
 #: ../../extending/scripts.rst:131
 msgid ""
@@ -345,7 +345,7 @@ msgid ""
 "the album title:"
 msgstr ""
 "On peut faire de même pour déplacer les artistes vedettes de l'artiste de "
-"l'album au titre de l'album:"
+"l'album au titre de l'album :"
 
 #: ../../extending/scripts.rst:141
 msgid "Preserve original filename"
@@ -358,9 +358,9 @@ msgid ""
 "want to save this information the following Script can be used:"
 msgstr ""
 "La balise ``originalfilename`` est censée contenir le nom de fichier que le "
-"fichier avait à l'origine. Par défaut, Picard ne définit ni ne modifie "
-"cette balise. Si vous voulez sauvegarder cette information, le script "
-"suivant peut être utilisé:"
+"fichier avait à l'origine. Par défaut, Picard ne définit ni ne modifie cette "
+"balise. Si vous voulez sauvegarder cette information, le script suivant peut "
+"être utilisé :"
 
 #: ../../extending/scripts.rst:149
 msgid ""

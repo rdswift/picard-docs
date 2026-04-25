@@ -3,22 +3,22 @@
 # This file is distributed under the same license as the MusicBrainz Picard
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
-# Bob Swift <bswift@rsds.ca>, 2022.
+# Bob Swift <bswift@rsds.ca>, 2022, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: MusicBrainz Picard v2.6b2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-14 08:09+0100\n"
-"PO-Revision-Date: 2022-05-10 21:18+0000\n"
+"PO-Revision-Date: 2026-04-25 05:03+0000\n"
 "Last-Translator: Bob Swift <bswift@rsds.ca>\n"
-"Language-Team: French <https://translate.uploadedlobster.com/projects/picard-"
+"Language-Team: French <https://translations.metabrainz.org/projects/picard-"
 "docs/tutorialswrite_plugin/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.12\n"
+"X-Generator: Weblate 5.17\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../../tutorials/write_plugin.rst:4
@@ -34,7 +34,7 @@ msgid ""
 msgstr ""
 "Vous avez une excellente idée pour étendre Picard avec un plugin mais vous "
 "ne savez pas par où commencer. Malheureusement, c'est un problème courant "
-"qui empêche beaucoup trop de ces grandes idées de voir le jour.  Peut-être "
+"qui empêche beaucoup trop de ces grandes idées de voir le jour. Peut-être "
 "que ce tutoriel vous aidera à commencer à transformer votre grande idée en "
 "réalité."
 
@@ -49,11 +49,11 @@ msgid ""
 "each of the function types."
 msgstr ""
 "Les plugins Picard sont écrits en Python, c'est donc le langage de "
-"programmation que vous utiliserez.  Veuillez vérifier le fichier `INSTALL.md "
+"programmation que vous utiliserez. Veuillez vérifier le fichier `INSTALL.md "
 "<https://github.com/metabrainz/picard/blob/master/INSTALL.md>`_ dans le "
 "dépôt Picard sur GitHub pour voir la version minimale requise. Il s'agit de "
-"Python 3.6 au moment où ce tutoriel a été écrit.  Consultez également la :"
-"doc:`Plugins API <../appendices/plugins_api>` pour obtenir des informations "
+"Python 3.6 au moment où ce tutoriel a été écrit. Consultez également la "
+":doc:`Plugins API <../appendices/plugins_api>` pour obtenir des informations "
 "supplémentaires, notamment les paramètres passés à chacun des types de "
 "fonctions."
 
@@ -67,7 +67,7 @@ msgid ""
 msgstr ""
 "Pour les besoins de ce tutoriel, nous allons développer un plugin simple "
 "pour sauvegarder les informations sur les arguments fournis par Picard aux "
-"plugins de traitement ``track`` et ``release``.  Cela démontrera comment on "
+"plugins de traitement ``track`` et ``release``. Cela démontrera comment on "
 "accède à ces informations, et fournira un utilitaire que vous pourrez "
 "trouver utile lorsque vous développerez vos propres plugins."
 
@@ -226,13 +226,13 @@ msgid ""
 msgstr ""
 "Enfin, nous devons enregistrer nos fonctions afin qu'elles soient traitées "
 "avec les événements appropriés. Dans notre cas, nous mettons la priorité à "
-"\"HIGH\" pour que nous puissions sortir les informations des paramètres dès "
+"``HIGH`` pour que nous puissions sortir les informations des paramètres dès "
 "qu'elles sont reçues par Picard avant que d'autres plugins aient "
 "l'opportunité de les modifier."
 
 #: ../../tutorials/write_plugin.rst:90
 msgid "The complete plugin code file looks something like:"
-msgstr "Le fichier de code complet du plugin ressemble à quelque chose comme:"
+msgstr "Le fichier de code complet du plugin ressemble à quelque chose comme :"
 
 #: ../../tutorials/write_plugin.rst:138
 msgid ""
@@ -269,7 +269,7 @@ msgstr ""
 
 #: ../../tutorials/write_plugin.rst:148
 msgid "Relevant portions of Picard's source code including:"
-msgstr "Des portions pertinentes du code source de Picard, y compris:"
+msgstr "Des portions pertinentes du code source de Picard, y compris :"
 
 #: ../../tutorials/write_plugin.rst:150
 msgid ""

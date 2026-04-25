@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the MusicBrainz Picard
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
-# Bob Swift <bswift@rsds.ca>, 2021, 2023, 2025.
+# Bob Swift <bswift@rsds.ca>, 2021, 2023, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: MusicBrainz Picard v2.3.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-29 14:34-0600\n"
-"PO-Revision-Date: 2026-03-19 11:13-0600\n"
+"PO-Revision-Date: 2026-04-24 18:22+0000\n"
 "Last-Translator: Bob Swift <bswift@rsds.ca>\n"
 "Language-Team: French <https://translations.metabrainz.org/projects/picard-"
 "docs/configoptions_general/fr/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Weblate 5.17\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../../config/options_general.rst:4
@@ -63,7 +63,7 @@ msgid ""
 "The port number for the server. Default value: 443 (for the main MusicBrainz "
 "server)."
 msgstr ""
-"Le numéro de port du serveur. Valeur par défaut: 80 (pour le serveur "
+"Le numéro de port du serveur. Valeur par défaut : 443 (pour le serveur "
 "MusicBrainz principal)."
 
 #: ../../config/options_general.rst:38
@@ -172,9 +172,9 @@ msgid ""
 "documentation will be displayed in English in your web browser."
 msgstr ""
 "Cette option permet de déterminer si Picard doit ou non vérifier "
-"automatiquement les versions et langues disponibles sur ReadTheDocs <pair: "
-"configuration; vérification de la documentation> lors du démarrage, afin "
-"d'afficher la page d'aide la plus pertinente. Si cette option est "
+"automatiquement :index:`les versions et langues disponibles sur ReadTheDocs "
+"<pair: configuration; vérification de la documentation>` lors du démarrage, "
+"afin d'afficher la page d'aide la plus pertinente. Si cette option est "
 "désactivée, la dernière version de la documentation s'affichera en anglais "
 "dans votre navigateur web."
 
@@ -207,12 +207,13 @@ msgid ""
 "available plugin updates and select which ones to install."
 msgstr ""
 "Cette option permet de déterminer si Picard vérifiera automatiquement la "
-"présence de mises à jour des plugins <pair: configuration; vérification des "
-"mises à jour des plugins> au démarrage. Si cette option est activée et "
-"qu'une mise à jour d'un plugin installé est disponible, une icône de "
-"notification s'affichera dans la barre d'état. En cliquant sur cette icône, "
-"vous ouvrirez la page d'options des plugins, où vous pourrez consulter les "
-"mises à jour disponibles et sélectionner celles que vous souhaitez installer."
+"présence de :index:`mises à jour des plugins <pair: configuration; "
+"vérification des mises à jour des plugins>` au démarrage. Si cette option "
+"est activée et qu'une mise à jour d'un plugin installé est disponible, une "
+"icône de notification s'affichera dans la barre d'état. En cliquant sur "
+"cette icône, vous ouvrirez la page d'options des plugins, où vous pourrez "
+"consulter les mises à jour disponibles et sélectionner celles que vous "
+"souhaitez installer."
 
 #: ../../config/options_general.rst:72
 msgid "**Check for program updates during start-up**"

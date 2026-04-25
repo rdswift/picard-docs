@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the MusicBrainz Picard
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
-# Bob Swift <bswift@rsds.ca>, 2021, 2023, 2024.
+# Bob Swift <bswift@rsds.ca>, 2021, 2023, 2024, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: MusicBrainz Picard v2.3.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-23 08:48+0200\n"
-"PO-Revision-Date: 2026-03-19 12:30-0600\n"
+"PO-Revision-Date: 2026-04-25 05:03+0000\n"
 "Last-Translator: Bob Swift <bswift@rsds.ca>\n"
 "Language-Team: French <https://translations.metabrainz.org/projects/picard-"
 "docs/configoptions_interface/fr/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Weblate 5.17\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../../config/options_interface.rst:4
@@ -79,7 +79,7 @@ msgid ""
 msgstr ""
 "Cette option permet à l'utilisateur de sélectionner le thème de couleurs "
 "utilisé par Picard. Sur les systèmes macOS et Windows, les choix disponibles "
-"sont les suivants:"
+"sont les suivants :"
 
 #: ../../config/options_interface.rst:35
 msgid ""
@@ -280,9 +280,9 @@ msgid ""
 "`options_interface_top_tags` / :doc:`options_interface_coverart_box` / :doc:"
 "`options_interface_quick_menu` / :doc:`options_interface_toolbar`"
 msgstr ""
-"Détails: :doc:`options_interface_colors` / :doc:"
-"`options_interface_top_tags` / :doc:`options_interface_coverart_box` / :doc:"
-"`options_interface_quick_menu` / :doc:`options_interface_toolbar`"
+"Détails : :doc:`options_interface_colors` / "
+":doc:`options_interface_top_tags` / :doc:`options_interface_coverart_box` / "
+":doc:`options_interface_quick_menu` / :doc:`options_interface_toolbar`"
 
 #~ msgid "**Enable audio player \"now playing\" notifications**"
 #~ msgstr ""

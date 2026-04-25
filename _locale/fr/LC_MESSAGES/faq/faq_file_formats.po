@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: MusicBrainz Picard v2.3.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-13 09:04-0600\n"
-"PO-Revision-Date: 2026-03-21 17:23+0000\n"
+"PO-Revision-Date: 2026-04-24 18:22+0000\n"
 "Last-Translator: Bob Swift <bswift@rsds.ca>\n"
 "Language-Team: French <https://translations.metabrainz.org/projects/picard-"
 "docs/faqfaq_file_formats/fr/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../../faq/faq_file_formats.rst:4
@@ -28,11 +28,11 @@ msgstr ":index:`Formats de fichiers <format de fichier>`"
 
 #: ../../faq/faq_file_formats.rst:7
 msgid "What formats does Picard support?"
-msgstr "Quels formats Picard prend-il en charge?"
+msgstr "Quels formats Picard prend-il en charge ?"
 
 #: ../../faq/faq_file_formats.rst:9
 msgid "Picard supports the following file formats:"
-msgstr "Picard prend en charge les formats de fichiers suivants:"
+msgstr "Picard prend en charge les formats de fichiers suivants :"
 
 #: ../../faq/faq_file_formats.rst:11
 msgid "MPEG-1 Audio (.mp3, .mp2, .m2a)"
@@ -140,7 +140,7 @@ msgstr ""
 
 #: ../../faq/faq_file_formats.rst:40
 msgid "What formats will Picard support?"
-msgstr "Quels formats Picard prend-il en charge?"
+msgstr "Quels formats Picard prendra-t-il en charge ?"
 
 #: ../../faq/faq_file_formats.rst:42
 msgid ""
@@ -204,7 +204,7 @@ msgstr ""
 
 #: ../../faq/faq_file_formats.rst:60
 msgid "Which tags can Picard write to my files?"
-msgstr "Quelles balises Picard peut-il écrire dans mes fichiers?"
+msgstr "Quelles balises Picard peut-il écrire dans mes fichiers ?"
 
 #: ../../faq/faq_file_formats.rst:62
 msgid ""
@@ -261,7 +261,7 @@ msgstr ""
 "Veuillez comprendre que Picard n'est pas conçu comme un :index:`éditeur de "
 "balises à usage général <mots clés; édition>`. Son objectif principal est de "
 "récupérer les données MusicBrainz maintenues par la communauté pour les "
-"écrire dans vos balises. Certains objectifs secondaires comprennent:"
+"écrire dans vos balises. Certains objectifs secondaires comprennent :"
 
 #: ../../faq/faq_file_formats.rst:75
 msgid ""
@@ -292,10 +292,10 @@ msgid ""
 msgstr ""
 "À cette fin, Picard ne se concentrera probablement jamais autant sur "
 "l'édition manuelle en masse des balises que d'autres éditeurs à usage "
-"général (par exemple: `Mp3tag <https://www.mp3tag.de/en/>`_, `foobar2000 "
+"général (par exemple : `Mp3tag <https://www.mp3tag.de/en/>`_, `foobar2000 "
 "<https://www.foobar2000.org/>`_, ou même de nombreux gestionnaires de "
 "bibliothèques tels que iTunes, Windows Media Player et MediaMonkey). Cela ne "
-"veut pas dire que l'équipe n'acceptera pas de correctifs dans ce domaine!"
+"veut pas dire que l'équipe n'acceptera pas de correctifs dans ce domaine !"
 
 #: ../../faq/faq_file_formats.rst:82
 msgid ""
@@ -414,7 +414,7 @@ msgid ""
 "The built-in audio player cannot play my file. Which formats does it support?"
 msgstr ""
 "Le lecteur audio intégré ne peut pas lire mon fichier. Quels formats prend-"
-"il en charge?"
+"il en charge ?"
 
 #: ../../faq/faq_file_formats.rst:110
 msgid ""
@@ -482,7 +482,7 @@ msgid ""
 msgstr ""
 "J'utilise Fedora. Pourquoi la prise :index:`d'empreintes acoustique "
 "<empreinte acoustique, empreinte digitale; acoustique>` ne fonctionne-t-elle "
-"pas?"
+"pas ?"
 
 #: ../../faq/faq_file_formats.rst:130
 msgid ""

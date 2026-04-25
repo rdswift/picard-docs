@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: MusicBrainz Picard v2.3.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-26 14:09-0600\n"
-"PO-Revision-Date: 2026-03-28 02:11+0000\n"
+"PO-Revision-Date: 2026-04-24 18:22+0000\n"
 "Last-Translator: Bob Swift <bswift@rsds.ca>\n"
 "Language-Team: French <https://translations.metabrainz.org/projects/picard-"
 "docs/appendicestag_mapping/fr/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../../appendices/tag_mapping.rst:26
@@ -2244,7 +2244,7 @@ msgstr "``SYLT:description``"
 
 #: ../../appendices/tag_mapping.rst:1
 msgid "``WM/Lyrics_Synchronised``"
-msgstr "WM/Lyrics_Synchronised"
+msgstr "``WM/Lyrics_Synchronised``"
 
 #: ../../appendices/tag_mapping.rst:1321
 msgid "Total Discs"
@@ -2256,7 +2256,7 @@ msgstr "``totaldiscs``"
 
 #: ../../appendices/tag_mapping.rst:1
 msgid "``DISCTOTAL and TOTALDISCS``"
-msgstr "``DISCTOTAL`` et ``TOTALDISCS``"
+msgstr "``DISCTOTAL et TOTALDISCS``"
 
 #: ../../appendices/tag_mapping.rst:1
 msgid "``WM/PartOfSet`` (Picard>=1.3.1)"
@@ -2452,7 +2452,7 @@ msgstr "``----:com.apple.iTunes:iTunes_CDDB_1``"
 
 #: ../../appendices/tag_mapping.rst:1456
 msgid "Notes:"
-msgstr "Remarques:"
+msgstr "Remarques :"
 
 #: ../../appendices/tag_mapping.rst:1457
 msgid "Taken from the earliest release in the release group."
@@ -2484,10 +2484,10 @@ msgid ""
 "Compilation). In neither case does this indicate a MusicBrainz Release Group "
 "subtype of compilation."
 msgstr ""
-"Pour Picard >= 1.3, cela indique un album de Various Artists; pour Picard <= "
-"1.2, cela indique des albums avec des pistes d'artistes différents ce qui "
-"est incorrect (par exemple: un album original avec un duo avec un artiste de "
-"l'exploit apparaîtrait comme une compilation). Dans aucun des cas, cela "
+"Pour Picard >= 1.3, cela indique un album de Various Artists ; pour Picard "
+"<= 1.2, cela indique des albums avec des pistes d'artistes différents ce qui "
+"est incorrect (par exemple : un album original avec un duo avec un artiste "
+"de l'exploit apparaîtrait comme une compilation). Dans aucun des cas, cela "
 "n'indique un sous-type MusicBrainz Release Group de compilation."
 
 #: ../../appendices/tag_mapping.rst:1462

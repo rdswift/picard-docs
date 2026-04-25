@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the MusicBrainz Picard
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
-# Bob Swift <bswift@rsds.ca>, 2021, 2022, 2023, 2024.
+# Bob Swift <bswift@rsds.ca>, 2021, 2022, 2023, 2024, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: MusicBrainz Picard v2.3.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-23 08:43+0200\n"
-"PO-Revision-Date: 2026-03-19 12:54-0600\n"
+"PO-Revision-Date: 2026-04-25 05:03+0000\n"
 "Last-Translator: Bob Swift <bswift@rsds.ca>\n"
 "Language-Team: French <https://translations.metabrainz.org/projects/picard-"
 "docs/variablestags_basic/fr/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Weblate 5.17\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../../variables/tags_basic.rst:9
@@ -852,4 +852,5 @@ msgid ""
 "The sort name of the show if the recording is associated with a television "
 "program."
 msgstr ""
-"Le nom du programme trié si l'enregistrement est associé à un programme TV."
+"Le nom de l'émission, si l'enregistrement est associé à une émission de "
+"télévision."

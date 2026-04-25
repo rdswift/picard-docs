@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the MusicBrainz Picard
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
-# Bob Swift <bswift@rsds.ca>, 2023, 2024.
+# Bob Swift <bswift@rsds.ca>, 2023, 2024, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: MusicBrainz Picard v2.4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-31 09:30-0700\n"
-"PO-Revision-Date: 2026-03-19 13:01-0600\n"
+"PO-Revision-Date: 2026-04-25 05:03+0000\n"
 "Last-Translator: Bob Swift <bswift@rsds.ca>\n"
 "Language-Team: French <https://translations.metabrainz.org/projects/picard-"
 "docs/variablesvariables_file/fr/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Weblate 5.17\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../../variables/variables_file.rst:4
@@ -39,7 +39,7 @@ msgid ""
 "only available for use on tracks with attached files, when running scripts "
 "manually on files or in the file naming script."
 msgstr ""
-"Les variables qui reposent sur les informations des fichiers (par exemple: "
+"Les variables qui reposent sur les informations des fichiers (par exemple : "
 "``_bitrate``) ne sont disponibles que pour une utilisation sur les pistes "
 "avec des fichiers joints, lors de l'exécution manuelle de scripts sur des "
 "fichiers ou dans le script de dénomination de fichier."
@@ -142,7 +142,7 @@ msgstr "**_format**"
 
 #: ../../variables/variables_file.rst:54
 msgid "Media format of the file (e.g.: MPEG-1 Audio)."
-msgstr "Le format multimédia du fichier (par exemple: MPEG-1 Audio)."
+msgstr "Le format multimédia du fichier (par exemple : MPEG-1 Audio)."
 
 #: ../../variables/variables_file.rst:56
 msgid "**_length**"
