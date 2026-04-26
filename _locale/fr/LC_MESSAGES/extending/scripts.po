@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: MusicBrainz Picard v2.3.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-14 08:09+0100\n"
-"PO-Revision-Date: 2026-04-25 15:12+0000\n"
+"PO-Revision-Date: 2026-04-26 16:11+0000\n"
 "Last-Translator: Bob Swift <bswift@rsds.ca>\n"
 "Language-Team: French <https://translations.metabrainz.org/projects/picard-"
 "docs/extendingscripts/fr/>\n"
@@ -141,7 +141,7 @@ msgstr "Script B, piste 2 ;"
 
 #: ../../extending/scripts.rst:29
 msgid "Script B Track 3."
-msgstr "Script B Track 3."
+msgstr "Script B, piste 3."
 
 #: ../../extending/scripts.rst:31
 msgid ""
