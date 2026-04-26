@@ -18,7 +18,22 @@ If you have problems using Picard, please first check the following resources:
 :index:`Reporting a Bug <troubleshooting; reporting a bug>`
 -----------------------------------------------------------
 
-If you think you have found a bug please check whether you are using the latest version of Picard and whether the bug has already been reported in the `bug tracker <https://tickets.musicbrainz.org/browse/PICARD>`_. If you're not sure or don't want to look through the existing tickets, ask on the community forums first.
+Plugin Issues
++++++++++++++
+
+If you think you have found a bug in a plugin, you should first check whether you are using the latest version of the plugin. This can be done by going to the :menuselection:`"Options --> Plugins"` page and clicking the :guilabel:`Refresh All` button. If an update is found for any of your plugins, you can update them from the plugins options page. If there was no update available or you have updated the plugin and are still experiencing the problem, you should report the issue to the plugin author. You can find the contact information for the plugin author by right-clicking on the plugin in the list and selecting :guilabel:`Information` from the context menu. This will show you a link to report issues if one is available, or you can use the link to the plugin homepage to find contact information for the author. When reporting the issue to the plugin author, please provide the following information:
+
+* Which version of Picard do you use?
+* Which version of the plugin do you use?
+* Which operating system do you use?
+* What did you do when the bug occurred?
+* What actually happened, and what did you expect to happen?
+* The **"Debug"** level log from the Picard session demonstrating the problem.
+
+Picard Issues
++++++++++++++
+
+If you think you have found a bug with Picard itself, please check whether you are using the latest version of Picard and whether the bug has already been reported in the `bug tracker <https://tickets.musicbrainz.org/browse/PICARD>`_. If you're not sure or don't want to look through the existing tickets, ask on the community forums first.
 
 If you're still convinced you have found a new bug, open a `new ticket <https://tickets.musicbrainz.org/secure/CreateIssue.jspa?pid=10042&issuetype=1>`_ providing the following information:
 

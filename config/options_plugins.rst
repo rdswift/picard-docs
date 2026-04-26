@@ -178,7 +178,7 @@ If you right-click on a plugin in the list, a context menu will be displayed.
       :width: 75%
       :align: center
 
-From this menu, you can toggle the enabled status of the plugin, uninstall, reinstall or change the installed version (reference), view detailed information, open the plugin repository in your browser, or :doc:`manually set the order in which the plugins are executed <options_plugin_execution_order>`. The detailed information includes additional items such as the license, the link to the homepage for the plugin if available, and the directory that the plugin resides on your file system.
+From this menu, you can toggle the enabled status of the plugin, uninstall, reinstall or change the installed version (reference), view detailed information, open the plugin repository in your browser, or :doc:`manually set the order in which the plugins are executed <options_plugin_execution_order>`. The detailed information includes additional items such as the license, the link to the homepage for the plugin (if available), the link to use to report issues (if available), and the directory that the plugin resides on your file system.
 
 .. only:: not latex
 
