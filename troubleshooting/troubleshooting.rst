@@ -21,7 +21,9 @@ If you have problems using Picard, please first check the following resources:
 Plugin Issues
 +++++++++++++
 
-If you think you have found a bug in a plugin, you should first check whether you are using the latest version of the plugin. This can be done by going to the :menuselection:`"Options --> Plugins"` page and clicking the :guilabel:`Refresh All` button. If an update is found for any of your plugins, you can update them from the plugins options page. If there was no update available or you have updated the plugin and are still experiencing the problem, you should report the issue to the plugin author. You can find the contact information for the plugin author by right-clicking on the plugin in the list and selecting :guilabel:`Information` from the context menu. This will show you a link to report issues if one is available, or you can use the link to the plugin homepage to find contact information for the author. When reporting the issue to the plugin author, please provide the following information:
+If you think you have found a bug in a plugin, you should first check whether you are using the latest version of the plugin. This can be done by going to the :menuselection:`"Options --> Plugins"` page and clicking the :guilabel:`Refresh All` button. If an update is found for any of your plugins, you can update them from the plugins options page. If there was no update available or you have updated the plugin and are still experiencing the problem, you should report the issue to the plugin author.
+
+If the plugin author has provided a link to report issues, right-clicking the plugin will provide an option to "Report a Bug". If there is no such option available, you can find the contact information for the plugin author by right-clicking on the plugin in the list and selecting :guilabel:`Information` from the context menu. This will show you a link to the plugin homepage. When reporting the issue to the plugin author, please provide the following information:
 
 * Which version of Picard do you use?
 * Which version of the plugin do you use?
