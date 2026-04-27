@@ -8,10 +8,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MusicBrainz Picard v2.7.0b2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-23 08:43+0200\n"
+"POT-Creation-Date: 2026-04-27 09:58-0600\n"
 "PO-Revision-Date: 2026-03-12 17:13+0000\n"
-"Last-Translator: mfmeulenbelt "
-"<mfmeulenbelt@users.noreply.translations.metabrainz.org>\n"
+"Last-Translator: mfmeulenbelt <mfmeulenbelt@users.noreply.translations."
+"metabrainz.org>\n"
 "Language-Team: Dutch <https://translations.metabrainz.org/projects/picard-"
 "docs/troubleshootingtroubleshooting/nl/>\n"
 "Language: nl\n"
@@ -76,13 +76,80 @@ msgstr ""
 msgid ":index:`Reporting a Bug <troubleshooting; reporting a bug>`"
 msgstr ":index:`Een bug melden <probleemoplossing; een bug melden>`"
 
-#: ../../troubleshooting/troubleshooting.rst:21
+#: ../../troubleshooting/troubleshooting.rst:22
+msgid "Plugin Issues"
+msgstr ""
+
+#: ../../troubleshooting/troubleshooting.rst:24
 msgid ""
-"If you think you have found a bug please check whether you are using the "
-"latest version of Picard and whether the bug has already been reported in "
-"the `bug tracker <https://tickets.musicbrainz.org/browse/PICARD>`_. If "
-"you're not sure or don't want to look through the existing tickets, ask on "
-"the community forums first."
+"If you think you have found a bug in a plugin, you should first check "
+"whether you are using the latest version of the plugin. This can be done by "
+"going to the :menuselection:`\"Options --> Plugins\"` page and clicking the :"
+"guilabel:`Refresh All` button. If an update is found for any of your "
+"plugins, you can update them from the plugins options page. If there was no "
+"update available or you have updated the plugin and are still experiencing "
+"the problem, you should report the issue to the plugin author."
+msgstr ""
+
+#: ../../troubleshooting/troubleshooting.rst:26
+msgid ""
+"If the plugin author has provided a link to report issues, right-clicking "
+"the plugin will provide an option to \"Report a Bug\". If there is no such "
+"option available, you can find the contact information for the plugin author "
+"by right-clicking on the plugin in the list and selecting :guilabel:"
+"`Information` from the context menu. This will show you a link to the plugin "
+"homepage. When reporting the issue to the plugin author, please provide the "
+"following information:"
+msgstr ""
+
+#: ../../troubleshooting/troubleshooting.rst:28
+#, fuzzy
+msgid "Which version of Picard do you use?"
+msgstr ""
+"Welke versie van Picard je gebruikt (in het formulier onder ‘Affects "
+"version’)"
+
+#: ../../troubleshooting/troubleshooting.rst:29
+msgid "Which version of the plugin do you use?"
+msgstr ""
+
+#: ../../troubleshooting/troubleshooting.rst:30
+#, fuzzy
+msgid "Which operating system do you use?"
+msgstr ""
+"Welk besturingssysteem je gebruikt (in het formulier onder ‘Environment’)"
+
+#: ../../troubleshooting/troubleshooting.rst:31
+#: ../../troubleshooting/troubleshooting.rst:44
+msgid "What did you do when the bug occurred?"
+msgstr "Wat je deed toen het probleem zich voordeed"
+
+#: ../../troubleshooting/troubleshooting.rst:32
+#: ../../troubleshooting/troubleshooting.rst:45
+msgid "What actually happened, and what did you expect to happen?"
+msgstr "Wat er gebeurde en wat je had verwacht dat er zou gebeuren"
+
+#: ../../troubleshooting/troubleshooting.rst:33
+#: ../../troubleshooting/troubleshooting.rst:47
+msgid ""
+"The **\"Debug\"** level log from the Picard session demonstrating the "
+"problem."
+msgstr ""
+"Het logboek (op het niveau **‘Foutopsporing’**) van de Picard-sessie waaruit "
+"het probleem blijkt."
+
+#: ../../troubleshooting/troubleshooting.rst:36
+msgid "Picard Issues"
+msgstr ""
+
+#: ../../troubleshooting/troubleshooting.rst:38
+#, fuzzy
+msgid ""
+"If you think you have found a bug with Picard itself, please check whether "
+"you are using the latest version of Picard and whether the bug has already "
+"been reported in the `bug tracker <https://tickets.musicbrainz.org/browse/"
+"PICARD>`_. If you're not sure or don't want to look through the existing "
+"tickets, ask on the community forums first."
 msgstr ""
 "Als je denkt dat je een bug hebt gevonden, controleer je eerst of je de "
 "nieuwste versie van Picard gebruikt en of de bug al in de `bugtracker "
@@ -90,7 +157,7 @@ msgstr ""
 "twijfelt of je de bestaande tickets niet wil doorzoeken, kan je het eerst op "
 "het forum vragen."
 
-#: ../../troubleshooting/troubleshooting.rst:23
+#: ../../troubleshooting/troubleshooting.rst:40
 msgid ""
 "If you're still convinced you have found a new bug, open a `new ticket "
 "<https://tickets.musicbrainz.org/secure/CreateIssue.jspa?"
@@ -101,38 +168,22 @@ msgstr ""
 "CreateIssue.jspa?pid=10042&issuetype=1>`_, waarin je de volgende informatie "
 "vermeldt:"
 
-#: ../../troubleshooting/troubleshooting.rst:25
+#: ../../troubleshooting/troubleshooting.rst:42
 msgid "Which version of Picard do you use? (\"Affects Version\" in the form)"
 msgstr ""
 "Welke versie van Picard je gebruikt (in het formulier onder ‘Affects "
 "version’)"
 
-#: ../../troubleshooting/troubleshooting.rst:26
+#: ../../troubleshooting/troubleshooting.rst:43
 msgid "Which operating system do you use? (\"Environment\" in the form)"
 msgstr ""
 "Welk besturingssysteem je gebruikt (in het formulier onder ‘Environment’)"
 
-#: ../../troubleshooting/troubleshooting.rst:27
-msgid "What did you do when the bug occurred?"
-msgstr "Wat je deed toen het probleem zich voordeed"
-
-#: ../../troubleshooting/troubleshooting.rst:28
-msgid "What actually happened, and what did you expect to happen?"
-msgstr "Wat er gebeurde en wat je had verwacht dat er zou gebeuren"
-
-#: ../../troubleshooting/troubleshooting.rst:29
+#: ../../troubleshooting/troubleshooting.rst:46
 msgid "If you're using plugins, which plugins do you have enabled?"
 msgstr "Of je plug-ins gebruikt en zo ja, welke"
 
-#: ../../troubleshooting/troubleshooting.rst:30
-msgid ""
-"The **\"Debug\"** level log from the Picard session demonstrating the "
-"problem."
-msgstr ""
-"Het logboek (op het niveau **‘Foutopsporing’**) van de Picard-sessie waaruit "
-"het probleem blijkt."
-
-#: ../../troubleshooting/troubleshooting.rst:34
+#: ../../troubleshooting/troubleshooting.rst:51
 msgid ""
 "Please remember to first remove any personal and confidential information "
 "like user id, passwords or authorization tokens before posting or submitting "
@@ -142,13 +193,13 @@ msgstr ""
 "informatie (zoals gebruikers-ID’s, wachtwoorden en autorisatietokens) uit "
 "het logboek te verwijderen."
 
-#: ../../troubleshooting/troubleshooting.rst:38
+#: ../../troubleshooting/troubleshooting.rst:55
 msgid ":index:`Getting a Debug Log <troubleshooting; get debug log>`"
 msgstr ""
 ":index:`Een debuglogboek verkrijgen <probleemoplossing; debuglogboek "
 "verkrijgen>`"
 
-#: ../../troubleshooting/troubleshooting.rst:40
+#: ../../troubleshooting/troubleshooting.rst:57
 msgid ""
 "For many bugs, it helps developers to have a debug log from Picard. You can "
 "see the log by going to :menuselection:`\"Help --> View Log\"`. You can also "
@@ -164,33 +215,33 @@ msgstr ""
 "bugticket plakt, kunnen ontwikkelaars en andere gebruikers je probleem "
 "sneller oplossen. Je kan het debuglogboek als volgt verkrijgen:"
 
-#: ../../troubleshooting/troubleshooting.rst:42
+#: ../../troubleshooting/troubleshooting.rst:59
 msgid "Start Picard."
 msgstr "Start Picard."
 
-#: ../../troubleshooting/troubleshooting.rst:43
+#: ../../troubleshooting/troubleshooting.rst:60
 msgid "Open the log view with :menuselection:`\"Help --> View Log\"`."
 msgstr ""
 "Open het logboek via :menuselection:`‘Hulp --> Fout- en debuglogboek "
 "bekijken’`."
 
-#: ../../troubleshooting/troubleshooting.rst:44
+#: ../../troubleshooting/troubleshooting.rst:61
 msgid "Change the log level :guilabel:`verbosity` to **Debug**."
 msgstr "Verander het detailniveau (linksonder) naar **‘Foutopsporing’**."
 
-#: ../../troubleshooting/troubleshooting.rst:45
+#: ../../troubleshooting/troubleshooting.rst:62
 msgid "Close the log viewer."
 msgstr "Sluit het logboek."
 
-#: ../../troubleshooting/troubleshooting.rst:46
+#: ../../troubleshooting/troubleshooting.rst:63
 msgid "Close and restart Picard."
 msgstr "Sluit Picard af en start Picard opnieuw op."
 
-#: ../../troubleshooting/troubleshooting.rst:47
+#: ../../troubleshooting/troubleshooting.rst:64
 msgid "Repeat the action that caused the problem being reported."
 msgstr "Herhaal wat je deed toen het probleem werd veroorzaakt."
 
-#: ../../troubleshooting/troubleshooting.rst:48
+#: ../../troubleshooting/troubleshooting.rst:65
 msgid ""
 "Open the log viewer and copy the output to paste into the forum post or bug "
 "ticket. Alternately, you can save the log to a file to attach to your bug "
@@ -200,11 +251,11 @@ msgstr ""
 "kan het logboek ook met de knop :guilabel:`‘Opslaan als …’` als bestand "
 "opslaan en aan je melding toevoegen."
 
-#: ../../troubleshooting/troubleshooting.rst:49
+#: ../../troubleshooting/troubleshooting.rst:66
 msgid "Close the log viewer, and close Picard."
 msgstr "Sluit het logboek en daarna Picard."
 
-#: ../../troubleshooting/troubleshooting.rst:53
+#: ../../troubleshooting/troubleshooting.rst:70
 msgid ""
 ":index:`Getting Logs in Case of Crashes <troubleshooting; getting log for "
 "crashes>`"
@@ -212,7 +263,7 @@ msgstr ""
 ":index:`Een logboek krijgen bij een vastloper <probleemoplossing; een "
 "logboek voor vastlopers verkrijgen>`"
 
-#: ../../troubleshooting/troubleshooting.rst:55
+#: ../../troubleshooting/troubleshooting.rst:72
 msgid ""
 "In some cases the problem will cause Picard to crash and not allow you to "
 "access the resulting log from the log viewer. You can still generate a log "
@@ -227,11 +278,11 @@ msgstr ""
 "logboekinformatie uit de opdrachtregel. Dit doe je op de ondersteunde "
 "platformen als volgt:"
 
-#: ../../troubleshooting/troubleshooting.rst:58
+#: ../../troubleshooting/troubleshooting.rst:75
 msgid "Windows Systems"
 msgstr "Windows"
 
-#: ../../troubleshooting/troubleshooting.rst:60
+#: ../../troubleshooting/troubleshooting.rst:77
 msgid ""
 "First open a command window by clicking the search icon on the Windows "
 "Taskbar and enter \"cmd\". Then start Picard by entering the following in "
@@ -241,7 +292,7 @@ msgstr ""
 "klikken en ‘cmd’ in te voeren. Vervolgens start je Picard met de volgende "
 "opdracht:"
 
-#: ../../troubleshooting/troubleshooting.rst:66
+#: ../../troubleshooting/troubleshooting.rst:83
 msgid ""
 "This will display all log entries in the command window, and allow you to "
 "copy the information to the clipboard to paste into your report."
@@ -249,7 +300,7 @@ msgstr ""
 "Alle logboekregistraties worden in het opdrachtvenster weergegeven. Kopieer "
 "deze tekst en plak hem in je melding."
 
-#: ../../troubleshooting/troubleshooting.rst:70
+#: ../../troubleshooting/troubleshooting.rst:87
 msgid ""
 "This method will only work with the installed version of Picard. It will not "
 "work with the portable or Windows Store versions."
@@ -257,15 +308,15 @@ msgstr ""
 "Deze methode werkt alleen als Picard is geïnstalleerd, niet met draagbare "
 "versies en versies uit de Windows Store."
 
-#: ../../troubleshooting/troubleshooting.rst:74
+#: ../../troubleshooting/troubleshooting.rst:91
 msgid "macOS Systems"
 msgstr "macOS"
 
-#: ../../troubleshooting/troubleshooting.rst:76
+#: ../../troubleshooting/troubleshooting.rst:93
 msgid "First open a terminal window by doing one of the following:"
 msgstr "Open eerst op een van de volgende manieren een terminalvenster:"
 
-#: ../../troubleshooting/troubleshooting.rst:78
+#: ../../troubleshooting/troubleshooting.rst:95
 msgid ""
 "Click the Launchpad icon in the Dock, type \"Terminal\" in the search field, "
 "then click :guilabel:`Terminal`."
@@ -273,14 +324,14 @@ msgstr ""
 "Klik op het Launchpad-pictogram in de Dock, typ in het zoekveld ‘Terminal’ "
 "en klik op click :guilabel:`Terminal`."
 
-#: ../../troubleshooting/troubleshooting.rst:80
+#: ../../troubleshooting/troubleshooting.rst:97
 msgid ""
 "In the Finder, open the \"/Applications/Utilities\" folder, then double-"
 "click \"Terminal\"."
 msgstr ""
 "Open de map ‘/Applications/Utilities’ in Finder en dubbelklik op ‘Terminal’."
 
-#: ../../troubleshooting/troubleshooting.rst:82
+#: ../../troubleshooting/troubleshooting.rst:99
 msgid ""
 "Assuming Picard was put into the system wide Applications folder when "
 "installed, it can then be started by entering the following in the terminal "
@@ -290,8 +341,8 @@ msgstr ""
 "geplaatst, kan je het programma starten met de volgende opdracht in het "
 "terminalvenster:"
 
-#: ../../troubleshooting/troubleshooting.rst:88
-#: ../../troubleshooting/troubleshooting.rst:100
+#: ../../troubleshooting/troubleshooting.rst:105
+#: ../../troubleshooting/troubleshooting.rst:117
 msgid ""
 "This will display all log entries in the terminal window, and allow you to "
 "copy the information to the clipboard to paste into your report."
@@ -299,11 +350,11 @@ msgstr ""
 "Alle logboekregistraties worden in het terminalvenster weergegeven. Kopieer "
 "deze tekst en plak hem in je melding."
 
-#: ../../troubleshooting/troubleshooting.rst:92
+#: ../../troubleshooting/troubleshooting.rst:109
 msgid "Linux Systems"
 msgstr "Linux"
 
-#: ../../troubleshooting/troubleshooting.rst:94
+#: ../../troubleshooting/troubleshooting.rst:111
 msgid ""
 "First open a Terminal window in your desktop environment, either from the "
 "Applications menu or by pressing :kbd:`Ctrl+Alt+T` on most systems. Then "
@@ -313,8 +364,8 @@ msgstr ""
 "systemen doe je dit via het applicatiemenu of door :kbd:`Ctrl+Alt+T` in te "
 "drukken. Vervolgens start je Picard met de volgende opdracht:"
 
-#: ../../troubleshooting/troubleshooting.rst:107
+#: ../../troubleshooting/troubleshooting.rst:124
 msgid ""
-"Specific "
-"situations: :doc:`does_not_start` / :doc:`no_coverart` / :doc:`missing_tags` / :doc:`not_saving` / :doc:`stopped_working`"
+"Specific situations: :doc:`does_not_start` / :doc:`no_coverart` / :doc:"
+"`missing_tags` / :doc:`not_saving` / :doc:`stopped_working`"
 msgstr ""
