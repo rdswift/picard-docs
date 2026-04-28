@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the MusicBrainz Picard
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
-# Bob Swift <bswift@rsds.ca>, 2021, 2022, 2023.
+# Bob Swift <bswift@rsds.ca>, 2021, 2022, 2023, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: MusicBrainz Picard v2.3.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-27 09:58-0600\n"
-"PO-Revision-Date: 2026-03-19 12:23-0600\n"
+"PO-Revision-Date: 2026-04-28 19:11+0000\n"
 "Last-Translator: Bob Swift <bswift@rsds.ca>\n"
 "Language-Team: French <https://translations.metabrainz.org/projects/picard-"
 "docs/configoptions_plugins/fr/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Weblate 5.17\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../../config/options_plugins.rst:4
@@ -344,7 +344,6 @@ msgstr ""
 "liste, un menu contextuel s'affichera."
 
 #: ../../config/options_plugins.rst:181
-#, fuzzy
 msgid ""
 "From this menu, you can toggle the enabled status of the plugin, uninstall, "
 "reinstall or change the installed version (reference), view detailed "
@@ -358,12 +357,14 @@ msgid ""
 msgstr ""
 "Depuis ce menu, vous pouvez activer ou désactiver le plugin, le "
 "désinstaller, le réinstaller ou modifier la version installée (référence), "
-"consulter des informations détaillées, ouvrir le répertoire des plugins dans "
-"votre navigateur, ou :doc:`définir manuellement l'ordre d'exécution des "
-"plugins <options_plugin_execution_order>`. Les informations détaillées "
-"comprennent des éléments supplémentaires tels que la licence, le lien vers "
-"la page d'accueil du plugin s'il est disponible, et le répertoire dans "
-"lequel le plugin se trouve sur votre système de fichiers."
+"consulter des informations détaillées, ouvrir le référentiel du plugin dans "
+"votre navigateur, signaler un bug (si l'auteur du plugin a fourni un lien), "
+"ou :doc:`définir manuellement l'ordre d'exécution des plugins "
+"<options_plugin_execution_order>`. Les informations détaillées comprennent "
+"des éléments supplémentaires tels que la licence, le lien vers la page "
+"d'accueil du plugin (si disponible), le lien à utiliser pour signaler des "
+"problèmes (si disponible) et le répertoire dans lequel le plugin se trouve "
+"sur votre système de fichiers."
 
 #: ../../config/options_plugins.rst:198
 msgid ""

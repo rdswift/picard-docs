@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: MusicBrainz Picard v2.3.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-27 09:58-0600\n"
-"PO-Revision-Date: 2026-04-25 15:12+0000\n"
+"PO-Revision-Date: 2026-04-28 19:11+0000\n"
 "Last-Translator: Bob Swift <bswift@rsds.ca>\n"
 "Language-Team: French <https://translations.metabrainz.org/projects/picard-"
 "docs/troubleshootingtroubleshooting/fr/>\n"
@@ -84,7 +84,7 @@ msgstr ":index:`Signaler un bogue <dépannage; signaler un bug>`"
 
 #: ../../troubleshooting/troubleshooting.rst:22
 msgid "Plugin Issues"
-msgstr ""
+msgstr "Problèmes liés aux plugins"
 
 #: ../../troubleshooting/troubleshooting.rst:24
 msgid ""
@@ -96,6 +96,14 @@ msgid ""
 "update available or you have updated the plugin and are still experiencing "
 "the problem, you should report the issue to the plugin author."
 msgstr ""
+"Si vous pensez avoir trouvé un bug dans un plugin, vous devriez d'abord "
+"vérifier si vous utilisez bien la dernière version de celui-ci. Pour ce "
+"faire, rendez-vous sur la page :menuselection:`« Options --> Plugins »` et "
+"cliquez sur le bouton :guilabel:`Actualiser tout`. Si une mise à jour est "
+"disponible pour l'un de vos plugins, vous pouvez la télécharger depuis la "
+"page des options des plugins. Si aucune mise à jour n'est disponible ou si "
+"vous avez mis à jour le plugin et que le problème persiste, vous devez "
+"signaler le problème à l'auteur du plugin."
 
 #: ../../troubleshooting/troubleshooting.rst:26
 msgid ""
@@ -107,24 +115,25 @@ msgid ""
 "a link to the plugin homepage. When reporting the issue to the plugin "
 "author, please provide the following information:"
 msgstr ""
+"Si l'auteur du plugin a fourni un lien pour signaler des problèmes, un clic "
+"droit sur le plugin fera apparaître une option « Signaler un bug ». Si cette "
+"option n'est pas disponible, vous pouvez trouver les coordonnées de l'auteur "
+"du plugin en cliquant avec le bouton droit sur le plugin dans la liste et en "
+"sélectionnant :guilabel:`Informations` dans le menu contextuel. Cela vous "
+"affichera un lien vers la page d'accueil du plugin. Lorsque vous signalez le "
+"problème à l'auteur du plugin, veuillez fournir les informations suivantes :"
 
 #: ../../troubleshooting/troubleshooting.rst:28
-#, fuzzy
 msgid "Which version of Picard do you use?"
-msgstr ""
-"Quelle version de Picard utilisez-vous ? (\"Affecte la version\" dans le "
-"formulaire)"
+msgstr "Quelle version de Picard utilisez-vous ?"
 
 #: ../../troubleshooting/troubleshooting.rst:29
 msgid "Which version of the plugin do you use?"
-msgstr ""
+msgstr "Quelle version du plugin utilisez-vous ?"
 
 #: ../../troubleshooting/troubleshooting.rst:30
-#, fuzzy
 msgid "Which operating system do you use?"
-msgstr ""
-"Quel système d'exploitation utilisez-vous ? (\"Environnement\" dans le "
-"formulaire)"
+msgstr "Quel système d'exploitation utilisez-vous ?"
 
 #: ../../troubleshooting/troubleshooting.rst:31
 #: ../../troubleshooting/troubleshooting.rst:44
@@ -147,10 +156,9 @@ msgstr ""
 
 #: ../../troubleshooting/troubleshooting.rst:36
 msgid "Picard Issues"
-msgstr ""
+msgstr "Problèmes liés à Picard"
 
 #: ../../troubleshooting/troubleshooting.rst:38
-#, fuzzy
 msgid ""
 "If you think you have found a bug with Picard itself, please check whether "
 "you are using the latest version of Picard and whether the bug has already "
@@ -158,11 +166,12 @@ msgid ""
 "PICARD>`_. If you're not sure or don't want to look through the existing "
 "tickets, ask on the community forums first."
 msgstr ""
-"Si vous pensez avoir trouvé un bogue, veuillez vérifier si vous utilisez la "
-"dernière version de Picard et si le bogue a déjà été signalé dans le `bug "
-"tracker <https://tickets.musicbrainz.org/browse/PICARD>`_. Si vous n'êtes "
-"pas sûr ou ne souhaitez pas consulter les tickets existants, demandez "
-"d'abord sur les forums de la communauté."
+"Si vous pensez avoir trouvé un bug dans Picard, veuillez vérifier si vous "
+"utilisez bien la dernière version du logiciel et si ce bug a déjà été "
+"signalé dans le `suivi des bogues <https://tickets.musicbrainz.org/browse/"
+"PICARD>`_. Si vous n'êtes pas sûr ou si vous ne souhaitez pas parcourir les "
+"tickets existants, posez d'abord votre question sur les forums de la "
+"communauté."
 
 #: ../../troubleshooting/troubleshooting.rst:40
 msgid ""
