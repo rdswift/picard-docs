@@ -1,4 +1,4 @@
-<!-- # Website 404 Redirection -->
+# Website 404 Redirection
 
 The standard path format for requesting a documentation page from the website is `https://picard-docs.musicbrainz.org/{language}/{version}/{page}` where:
 
