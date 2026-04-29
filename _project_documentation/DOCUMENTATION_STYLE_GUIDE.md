@@ -111,13 +111,13 @@ Although RestructuredText allows identifying a code block by indenting the code 
 
     This type of code block definition should not be used::
 
-        $set(album,%album%$if(%_releasecomment%, \(%_releasecomment%\)))
+       $set(album,%album%$if(%_releasecomment%, \(%_releasecomment%\)))
 
     The preferred method is define the code block as a directive, such as:
 
     .. code-block:: taggerscript
 
-        $set(album,%album%$if(%_releasecomment%, \(%_releasecomment%\)))
+       $set(album,%album%$if(%_releasecomment%, \(%_releasecomment%\)))
 
 ### Admonitions
 
@@ -138,15 +138,15 @@ Large images should be typically scaled to 75% to 80% width (as appropriate) for
     .. only:: not latex
 
     .. image:: images/options-player.png
-        :align: center
+       :align: center
 
     |
 
     .. only:: latex
 
     .. image:: images/options-player.png
-        :width: 75%
-        :align: center
+       :width: 75%
+       :align: center
 
 ### Index entries
 
