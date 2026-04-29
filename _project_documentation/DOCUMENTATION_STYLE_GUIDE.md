@@ -33,6 +33,8 @@ The preferred method would be to provide this as a single long line as:
 
     This is an example...submitting the file.
 
+Note that most editors allow you to enable soft line breaks, allowing you to enter long lines that will be displayed as wrapped within the editor but will be saved as a single line without the line breaks.
+
 ### Spacing between sentences
 
 The preference is to provide a single space between sentences. For example:
