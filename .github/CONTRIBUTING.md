@@ -4,6 +4,8 @@ This documentation project only exists because of the volunteer effort that goes
 
 Further high quality contributions are welcomed from all Picard users wanting to be part of the open source community that creates and maintains this valuable music tool. Even if you cannot write code, based on your experience of using Picard any help you can give to improve this documentation further will be most appreciated. If you cannot improve the existing help, but would be willing to assist in creating or maintaining translations into other languages, that would be of great benefit.
 
+Please refer to the [Style Guidelines](https://github.com/metabrainz/picard-docs/blob/main/_project_documentation/DOCUMENTATION_STYLE_GUIDE.md) for more information about the stylistic and RestructuredText coding preferences for the documentation project.
+
 If you want to contribute corrections or new material to this documentation project, there are a few different ways to submit your contributions.
 
 - If you are comfortable developing ReStructuredText format files, and are familiar with [Pull Requests](https://github.com/metabrainz/picard-docs/pulls) on GitHub, you can submit a pull request with the changes to the documentation source files. This is the preferred method, because it provides a clear way for the changes to be reviewed and discussed.
