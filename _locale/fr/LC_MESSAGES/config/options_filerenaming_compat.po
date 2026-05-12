@@ -51,7 +51,7 @@ msgstr ""
 "Sélectionnez cette option pour remplacer les caractères non ASCII par leur "
 "équivalent ASCII (par exemple : \"á\", \"ä\" et \"ǎ\" par \"a\" ; \"é\", "
 "\"ě\" et \"ë\" par \"e\" ; \"æ\" par \"ae\"). Vous trouverez de plus amples "
-"informations sur les caractères ASCII sur `Wikipedia <https ://"
+"informations sur les caractères ASCII sur `Wikipedia <https://"
 "fr.wikipedia.org/wiki/American_Standard_Code_for_Information_Interchange>`_."
 
 #: ../../config/options_filerenaming_compat.rst:23

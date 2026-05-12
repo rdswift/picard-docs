@@ -53,7 +53,7 @@ msgstr ""
 "Les scripts font souvent l'objet de discussions sur le `forum de la "
 "communauté MetaBrainz <https://community.metabrainz.org/>`_, et il existe un "
 "fil de discussion consacré à la `dénomination des fichiers et aux extraits "
-"de scripts <https://community. metabrainz.org/t/repository-for-neat-file-"
+"de scripts <https://community.metabrainz.org/t/repository-for-neat-file-"
 "name-string-patterns-and-tagger-script-snippets/2786/>`_."
 
 #: ../../extending/scripting.rst:14
