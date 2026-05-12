@@ -104,7 +104,7 @@
 
 **Use artist sort name for translation**
 
-   When this option is enabled, if there is no match for the selected locale for an artist and "English" is the selected locale, Picard can use the artist sort name (which is, by Style Guideline, stored in Latin script) as a fallback.
+   When this option is enabled, if there is no match for the selected locale for an artist, Picard can use the artist sort name (which is, by Style Guideline, stored in Latin script) as a fallback.
 
 **Various artists**
 
