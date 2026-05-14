@@ -89,6 +89,10 @@ If you enable tagging with :doc:`Use track relationships <../config/options_meta
 
    The date the recording was broadcast.
 
+**_iswc**
+
+   The International Standard Musical Work Code (ISWC) for the work. ISWC is a unique, permanent and internationally recognised reference number for the identification of musical works. It identifies a musical work as a unique intangible creation. It relates to the result of an intangible creation of one or more people, regardless of copyright status, distributions or agreements that cover this creation. (*since Picard 3.0*)
+
 **_lyricistsort**
 
    The sort names of the lyricists for the work. (*since Picard 2.9*)
