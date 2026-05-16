@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: MusicBrainz Picard v2.3.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-14 17:35-0600\n"
-"PO-Revision-Date: 2026-04-25 15:12+0000\n"
+"PO-Revision-Date: 2026-05-16 02:12+0000\n"
 "Last-Translator: Bob Swift <bswift@rsds.ca>\n"
 "Language-Team: French <https://translations.metabrainz.org/projects/picard-"
 "docs/variablesvariables_advanced/fr/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 2026.5\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../../variables/variables_advanced.rst:33
@@ -195,7 +195,7 @@ msgstr "La date à laquelle l'enregistrement a été diffusé."
 
 #: ../../variables/variables_advanced.rst:92
 msgid "**_iswc**"
-msgstr ""
+msgstr "**_iswc**"
 
 #: ../../variables/variables_advanced.rst:94
 msgid ""
@@ -206,6 +206,13 @@ msgid ""
 "one or more people, regardless of copyright status, distributions or "
 "agreements that cover this creation. (*since Picard 3.0*)"
 msgstr ""
+"Le Code international normalisé des œuvres musicales (ISWC) de l'œuvre. "
+"L'ISWC est un numéro de référence unique, permanent et reconnu à l'échelle "
+"internationale qui sert à identifier les œuvres musicales. Il identifie une "
+"œuvre musicale en tant que création immatérielle unique. Il se rapporte au "
+"résultat d'une création immatérielle réalisée par une ou plusieurs "
+"personnes, indépendamment du statut en matière de droit d'auteur, des "
+"distributions ou des accords régissant cette création. (*depuis Picard 3.0*)"
 
 #: ../../variables/variables_advanced.rst:96
 msgid "**_lyricistsort**"
