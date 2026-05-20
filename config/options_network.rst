@@ -24,9 +24,9 @@ These settings allow you to configure the network settings used by Picard.
 
    By default Picard will abort running network requests after 30 seconds of inactivity. If needed you can change the timeout period here.
 
-**Cache size (MB)**
+**Cache usage**
 
-   Size in MB of the on-disk cache for network requests.
+   This displays the size of the on-disk cache currently in use for network requests, and the user-defined maximum size in MB of the cache available. There is also a button provided to clear all locally cached network requests.
 
 .. |lookup_tagger| image:: images/mblookup-tagger.png
    :height: 1em
