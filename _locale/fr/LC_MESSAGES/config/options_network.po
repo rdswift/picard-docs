@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MusicBrainz Picard v2.3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-20 12:43-0600\n"
+"POT-Creation-Date: 2026-05-20 10:55-0600\n"
 "PO-Revision-Date: 2026-03-20 12:46-0600\n"
 "Last-Translator: Bob Swift <bswift@rsds.ca>\n"
 "Language-Team: French <https://translate.uploadedlobster.com/projects/picard-"
@@ -63,12 +63,16 @@ msgstr ""
 "d'expiration ici."
 
 #: ../../config/options_network.rst:27
-msgid "**Cache size (MB)**"
+#, fuzzy
+msgid "**Cache usage**"
 msgstr "**Taille du cache (MB)**"
 
 #: ../../config/options_network.rst:29
-msgid "Size in MB of the on-disk cache for network requests."
-msgstr "Taille en MB du cache sur disque pour les requêtes réseau."
+msgid ""
+"This displays the size of the on-disk cache currently in use for network "
+"requests, and the user-defined maximum size in MB of the cache available. "
+"There is also a button provided to clear all locally cached network requests."
+msgstr ""
 
 #: ../../config/options_network.rst:34
 msgid "**Browser Integration**"
@@ -137,6 +141,9 @@ msgstr ""
 "uniquement sur les réseaux de confiance. L'exposition des ports "
 "d'application via le réseau peut ouvrir des failles de sécurité potentielles "
 "sur votre système."
+
+#~ msgid "Size in MB of the on-disk cache for network requests."
+#~ msgstr "Taille en MB du cache sur disque pour les requêtes réseau."
 
 #~ msgid "Network"
 #~ msgstr "Réseau"

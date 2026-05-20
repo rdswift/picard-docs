@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MusicBrainz Picard v2.7.0b2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-20 12:43-0600\n"
+"POT-Creation-Date: 2026-05-20 10:55-0600\n"
 "PO-Revision-Date: 2026-03-12 17:13+0000\n"
 "Last-Translator: mfmeulenbelt <mfmeulenbelt@users.noreply.translations."
 "metabrainz.org>\n"
@@ -61,11 +61,14 @@ msgstr ""
 "inactiviteit af. Je kan de wachttijd hier veranderen."
 
 #: ../../config/options_network.rst:27
-msgid "**Cache size (MB)**"
+msgid "**Cache usage**"
 msgstr ""
 
 #: ../../config/options_network.rst:29
-msgid "Size in MB of the on-disk cache for network requests."
+msgid ""
+"This displays the size of the on-disk cache currently in use for network "
+"requests, and the user-defined maximum size in MB of the cache available. "
+"There is also a button provided to clear all locally cached network requests."
 msgstr ""
 
 #: ../../config/options_network.rst:34
