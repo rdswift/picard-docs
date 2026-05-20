@@ -31,6 +31,16 @@ where the options are:
 
    comma-separated list of debug options. Use --debug-opts without value to list available options
 
+   .. note::
+
+      The ``plugin_development`` debug option has been specifically designed to assist plugin developers by allowing detailed logging of plugin-related events that would not normally be included in the debug log. This can help developers identify issues and understand the behavior of their plugins within Picard. Debug log entries are useful when a user is trying to understand which plugin is making changes to metadata and such, but extensive debug logging such as that required for troubleshooting a specific plugin can be overwhelming. If detailed debug logging is included in a plugin, it should be used with a blocking guard so that it is only logged when the ``plugin_development`` debug option is specified on the command line. For example:
+
+      .. code-block:: python
+
+         # Block guard to avoid extensive debug logging when disabled
+         if dbg := self.api.logger.debug_if(DebugOpt.PLUGIN_DEVELOPMENT):
+             dbg("Detailed debug output for plugin development")
+
 .. option:: -e COMMAND, --exec COMMAND
 
    execute one or more COMMANDs at start-up (see :doc:`../usage/exec_commands` for more information)
