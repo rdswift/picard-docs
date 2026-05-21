@@ -33,13 +33,21 @@ where the options are:
 
    .. note::
 
-      The ``plugin_development`` debug option has been specifically designed to assist plugin developers by allowing detailed logging of plugin-related events that would not normally be included in the debug log. This can help developers identify issues and understand the behavior of their plugins within Picard. Debug log entries are useful when a user is trying to understand which plugin is making changes to metadata and such, but extensive debug logging such as that required for troubleshooting a specific plugin can be overwhelming. If detailed debug logging is included in a plugin, it should be used with a blocking guard so that it is only logged when the ``plugin_development`` debug option is specified on the command line. For example:
+      The ``plugin_development`` debug option has been specifically designed to assist plugin developers by allowing detailed logging of plugin-related events that would not normally be included in the debug log. This can help developers identify issues and understand the behavior of their plugins within Picard. Debug log entries are useful when a user is trying to understand which plugin is making changes to metadata and such, but extensive debug logging such as that required for troubleshooting a specific plugin can be overwhelming. If detailed debug logging is included, it should be used with the ``api.logger.debug_if()`` method so that it is only logged when the ``plugin_development`` debug option is specified on the command line. For example:
 
       .. code-block:: python
 
-         # Block guard to avoid extensive debug logging when disabled
+         # Single message
+         self.api.logger.debug_if(DebugOpt.PLUGIN_DEVELOPMENT, "Detailed debug message with no parameters")
+         self.api.logger.debug_if(DebugOpt.PLUGIN_DEVELOPMENT, "Resize: %d x %d", width, height)
+
+         # Lazy formatting with msg_func
+         self.api.logger.debug_if(DebugOpt.PLUGIN_DEVELOPMENT, msg_func=lambda: "Settings: %s" % expensive())
+
+         # Block guard to skip expensive code entirely when disabled
          if dbg := self.api.logger.debug_if(DebugOpt.PLUGIN_DEVELOPMENT):
-             dbg("Detailed debug output for plugin development")
+             for item in items:
+                 dbg("item: %r", item)
 
 .. option:: -e COMMAND, --exec COMMAND
 
