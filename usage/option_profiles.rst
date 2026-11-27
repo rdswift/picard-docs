@@ -171,26 +171,33 @@ This lists the attached profiles in the order in which they appear in the profil
 Profile Warning Message
 -----------------------
 
-When an enabled profile manages one or more of the options on an options page, a warning message is shown at the bottom of the page to tell you which profiles are involved. The message is not shown if none of the enabled profiles manage any of the options on the page. Clicking the help button at the right of the message will open this page.
+When an enabled profile manages one or more of the options on an options page, a warning message is shown at the bottom of the page to tell you which profiles are involved. The message is not shown if none of the enabled profiles manage any of the options on the page. Clicking the help button (question mark in a circle) at the right of the message will open this documentation page in your browser.
 
-.. only:: not latex
+The message lists the profile names in the order they appear in the profile stack. If there are more than three, only the first three are shown, followed by an ellipsis. There are two versions of the message:
 
-   .. image:: images/options-profile-warning-overridden.png
-      :align: center
-      :alt: Metadata options page with a highlighted setting and a warning message at the bottom saying that the highlighted settings are overridden by "My profile (1)"
+- "*The highlighted settings on this page are overridden by ...*" is shown when a profile stores a value that is different from the value in your "user settings". These options have a strong highlight.
 
-   |
+.. image:: images/options-profile-message-overridden.png
+   :align: center
+   :width: 75%
+   :alt: Profile warning message "Overridden".
 
-.. only:: latex
+|
 
-   .. image:: images/options-profile-warning-overridden.png
-      :align: center
-      :width: 75%
-      :alt: Metadata options page with a highlighted setting and a warning message at the bottom saying that the highlighted settings are overridden by "My profile (1)"
+- "*The highlighted settings on this page are tracked by ...*" is shown when the profile manages the option but its value is the same as your "user settings", or it does not yet have a value. These options have a lighter highlight.
 
-The message names the profiles in the order they appear in the profile stack. If there are more than three, only the first three are shown, followed by an ellipsis. There are two versions of the message:
+.. image:: images/options-profile-message-tracked.png
+   :align: center
+   :width: 75%
+   :alt: Profile warning message "Tracked".
 
-- "The highlighted settings on this page are overridden by ..." is shown when a profile stores a value that is different from the value in your "user settings". These options have a strong highlight.
-- "The highlighted settings on this page are tracked by ..." is shown when the profile manages the option but its value is the same as your "user settings", or it does not have a value yet. These options have a lighter highlight.
+|
 
-If any profile overrides an option on the page, only the profiles that override options are named in the message. You can hover your cursor over a highlighted option to see which profile it is controlled by.
+If any profile overrides an option on the page, only the profiles that override options are named in the message. You can hover your cursor over a highlighted option to see which profile controls that option.
+
+.. image:: images/options-profile-mouse-over.png
+   :align: center
+   :width: 75%
+   :alt: Profile information on mouse hover over highlighted setting.
+
+|
